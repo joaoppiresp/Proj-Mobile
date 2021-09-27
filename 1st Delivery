@@ -171,7 +171,7 @@ Scenario      |  2.2. O utilizador insere um nome errado ou não registado na ap
               |
               |  3.1. Ainda não existem informações disponiveis para o estabelecimento procurado pelo utilizador;
               |
-              |     B) É retornada uma mensagem de erro ao utilizador (i.e. 'Info não disponivel');
+              |     B) É retornada uma mensagem de erro ao utilizador (i.e., 'Info não disponivel');
 
 Post          |  - O utilizador regressa á interface do mapa interativo (map);
 Conditions    |  - O utilizador regressa á interface principal (main);
@@ -183,3 +183,16 @@ Post          |  - N\A
 Conditions    |
 
 ###Types of Users and functionalities
+
+1. Registered User
+
+    - Registo de amigos e todas as funcionalidades que estes trazem (i.e., Localização dos amigos, 'instant ping'*, etc);
+    - Pesquisa por estabelecimentos e acesso ás suas informações;
+    
+2. Anonymous User
+
+    - Acesso ao mapa interativo;
+    - Pesquisa por estabelecimentos e acesso ás suas informações;
+    
+
+*'instant ping', isto é, a possibilidade de enviar uma notificação a um utilizador 'amigo' com uma mensagem automática (i.e., "Estou a caminho!", "Liga-me por favor", etc);
