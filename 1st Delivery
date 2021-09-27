@@ -188,6 +188,8 @@ Conditions    |
 
     - Registo de amigos e todas as funcionalidades que estes trazem (i.e., Localização dos amigos, 'instant ping'*, etc);
     - Pesquisa por estabelecimentos e acesso ás suas informações;
+    - Registo de gostos, isto é, informações gerais sobre o utilizador (estas informações serão utilizadas para 'match-making';
+    - 'Matching' com outros utilizadores na mesma zona com gostos iguais;
     
 2. Anonymous User
 
@@ -196,3 +198,12 @@ Conditions    |
     
 
 *'instant ping', isto é, a possibilidade de enviar uma notificação a um utilizador 'amigo' com uma mensagem automática (i.e., "Estou a caminho!", "Liga-me por favor", etc);
+
+###Data & permitions
+
+1. Localização do utilizador
+2. Conta e-mail
+3. Lista de amigos
+4. Gostos (registados pelo utilizador)
+5. 'ID' do utilizador
+
