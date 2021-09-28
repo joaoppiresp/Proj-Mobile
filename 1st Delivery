@@ -1,23 +1,29 @@
+<img title="Logo Universidade" alt="IADE" src="/stuf/personal/Universidade/Uni_Logo.png">
+
 #**Project Name**
+#Projeto realizado por João Miguel Pires, nº20200459 e Hélio Divaldo, nº20190928
+#IADE, Universidade Europeia
 
-##First Delivery
+#Projeto realizado no âmbito das unidades curriculares de Base de Dados, Competências Comunicacionais, Programação Orientada a Objetos e Projeto de Desenvolvimento Móvel
 
-###Framing
-A app tem como público-alvo os jovens, em fase inicial na região de Lisboa, 
+##1º Relatório de Progresso
+
+###Enquadramento
+ A app tem como público-alvo os jovens, em fase inicial na região de Lisboa, 
 que têm uma vida social ativa, gostam de escolher sempre as melhores zonas, bares e clubes a frequentar e não sabem como evitar acontecimentos inesperados, 
 como desacatos ou zonas fechadas ao público sem aviso, 
 mas também será uma ponte para os jovens mais “tímidos” que procuram novas amizades e desejam melhorar as suas interações sociais. 
 
-###Use Case Description
+###Descrição de Casos de Utilização
 
 #### Use Case 1 - Map Access (Registered User)
 
-Description   | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); 
+Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); 
 
-Pre-Conditions| 1. O utilizador está registado na aplicação;
+Pre-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
               
-Main Scenario | 1. O utilizador abre a aplicação; 
+Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |     1.1. O utilizador introduz as suas credênciais; 
               |
@@ -34,8 +40,8 @@ Main Scenario | 1. O utilizador abre a aplicação;
               |        4.1.1. Use Case ** 
            
            
-Alternative   |
-Scenario      |  1.2. As credênciais do utilizador não se encontram registadas no sitema; 
+Cenário       |
+Alternativo   |  1.2. As credênciais do utilizador não se encontram registadas no sitema; 
               |
               |     A) Use Case ** 
               |
@@ -49,23 +55,23 @@ Scenario      |  1.2. As credênciais do utilizador não se encontram registadas
               |
               |  3.1. O utilizador fecha o mapa e regressa á interfáce principal (main); 
 
-Post          |  - O utilizador regressa á interface principal (main);
-Conditions    |
+Pós           |  - O utilizador regressa á interface principal (main);
+Condições     |
 
-Exception     |  - O utilizador fecha a aplicação a qualquer momento;
-Scenario      |
+Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
+Exceção       |
 
-Post          |  - N\A
-Conditions    |
+Pós           |  - N\A
+Condições     |
 
 #### Use Case 2 - Map Access (Anonymous User)
 
-Description   | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Anonymous Users);
+Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Anonymous Users);
 
-Pre-Conditions| 1. O utilizador  não está registado na aplicação;
+Pré-Condições | 1. O utilizador  não está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
               
-Main Scenario | 1. O utilizador abre a aplicação; 
+Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |    1.1. O utilizador é direcionado para a interface principal da aplicação (main); 
               |  
@@ -80,31 +86,31 @@ Main Scenario | 1. O utilizador abre a aplicação;
               |        4.1.1. Use Case ** 
            
            
-Alternative   |
-Scenario      |  2.1. O mapa interativo não abre; 
+Cenário       |
+Alternativo   |  2.1. O mapa interativo não abre; 
               |
               |     C) *** 
               |
               |  3.1. O utilizador fecha o mapa e regressa á interfáce principal (main); 
 
-Post          |  - O utilizador regressa á interface principal (main);
-Conditions    |
+Pós           |  - O utilizador regressa á interface principal (main);
+Condições     |
 
-Exception     |  - O utilizador fecha a aplicação a qualquer momento;
-Scenario      |
+Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
+Exceção       |
 
-Post          |  - N\A
-Conditions    |
+Pós           |  - N\A
+Condições     |
 
 #### Use Case 3 - Add Friend  (Registered Users only)
 
-Description   | Use Case destinado á adição de 'amigos' do utilizador;
+Descrição     | Use Case destinado á adição de 'amigos' do utilizador;
 
-Pre-Conditions| 1. O utilizador está registado na aplicação;
+Pré-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
               | 3. O utilizador possui o "ID" do perfil do utilizador amigo;
               
-Main Scenario | 1. O utilizador abre a aplicação; 
+Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |    1.1. O utilizador é direcionado para a interface principal da aplicação (main); 
               |  
@@ -117,8 +123,8 @@ Main Scenario | 1. O utilizador abre a aplicação;
               |    3.3. O amigo é adicionado com sucesso e as novas funções ficam disponivéis;
            
            
-Alternative   |
-Scenario      |  2.2. O utilizador clica num amigo já existente;
+Cenário       |
+Alternativo   |  2.2. O utilizador clica num amigo já existente;
               |    
               |     A) Use Case ** 
               |
@@ -131,24 +137,24 @@ Scenario      |  2.2. O utilizador clica num amigo já existente;
               | 
               |     B.1) O utilizador tenta novamente;
 
-Post          |  - O utilizador regressa á interface principal (main);
-Conditions    |
+Pós           |  - O utilizador regressa á interface principal (main);
+Condições     |
 
-Exception     |  - O utilizador fecha a aplicação a qualquer momento;
-Scenario      |  
+Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
+Exceção       |  
 
-Post          |  - N\A
-Conditions    |
+Pós           |  - N\A
+Condições     |
 
 #### Use Case 4 - Search (All Users)
 
-Description   | Use Case destinado á procura por estabelecimentos pelo utilizador;
+Descrição     | Use Case destinado á procura por estabelecimentos pelo utilizador;
 
-Pre-Conditions| 1. O utilizador está registado na aplicação;
+Pré-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
               | 3. O utilizador sabe o nome do estabelecimento que procura ou, alternamtivamente, a sua localização relativa;
               
-Main Scenario | 1. O utilizador abre a aplicação; 
+Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |    1.1. O utilizador é direcionado para a interface principal da aplicação (main); 
               |  
@@ -163,8 +169,8 @@ Main Scenario | 1. O utilizador abre a aplicação;
               |    3.1. O utilizador é redirecionado para a interface de dados dos estabelecimentos e visualiza a informação disponível;
            
            
-Alternative   |
-Scenario      |  2.2. O utilizador insere um nome errado ou não registado na aplicação;
+Cenário       |
+Alternativo   |  2.2. O utilizador insere um nome errado ou não registado na aplicação;
               |    
               |     A) É mostrada uma mensagem de erro;
               |         A.1) O utilizador tenta procurar novamente;
@@ -173,16 +179,16 @@ Scenario      |  2.2. O utilizador insere um nome errado ou não registado na ap
               |
               |     B) É retornada uma mensagem de erro ao utilizador (i.e., 'Info não disponivel');
 
-Post          |  - O utilizador regressa á interface do mapa interativo (map);
-Conditions    |  - O utilizador regressa á interface principal (main);
+Pós           |  - O utilizador regressa á interface do mapa interativo (map);
+Condições     |  - O utilizador regressa á interface principal (main);
 
-Exception     |  - O utilizador fecha a aplicação a qualquer momento;
-Scenario      |  
+Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
+Exceção       |  
 
-Post          |  - N\A
-Conditions    |
+Pós           |  - N\A
+Condições     |
 
-###Types of Users and functionalities
+###Tipos de utilizadores e funcionalidades
 
 1. Registered User
 
@@ -199,7 +205,7 @@ Conditions    |
 
 *'instant ping', isto é, a possibilidade de enviar uma notificação a um utilizador 'amigo' com uma mensagem automática (i.e., "Estou a caminho!", "Liga-me por favor", etc);
 
-###Data & permitions
+###Dados & Permissões 
 
 1. Localização do utilizador
 2. Conta e-mail
