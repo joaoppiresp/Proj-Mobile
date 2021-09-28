@@ -17,14 +17,14 @@ mas também será uma ponte para os jovens mais “tímidos” que procuram nova
 ###Descrição de Casos de Utilização
 
 #### Use Case 1 - Map Access (Registered User)
-
+----------------------------------------------
 Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); 
-
+--------------|-----------------------------------------------------------------------------------------------------------------------------------------
 Pre-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
-              
+--------------|--------------------------------------------------------------              
 Cenário Princ.| 1. O utilizador abre a aplicação; 
-              |
+--------------|----------------------------------
               |     1.1. O utilizador introduz as suas credênciais; 
               |
               |    1.4. O utilizador é direcionado para a interface principal da aplicação (main); 
@@ -38,8 +38,7 @@ Cenário Princ.| 1. O utilizador abre a aplicação;
               |     4.1. O menu das opções é apresentado e o utilizador faz a sua seleção; 
               |
               |        4.1.1. Use Case ** 
-           
-           
+--------------|--------------------------           
 Cenário       |
 Alternativo   |  1.2. As credênciais do utilizador não se encontram registadas no sitema; 
               |
@@ -54,23 +53,24 @@ Alternativo   |  1.2. As credênciais do utilizador não se encontram registadas
               |     C) *** 
               |
               |  3.1. O utilizador fecha o mapa e regressa á interfáce principal (main); 
-
+--------------|-------------------------------------------------------------------------
 Pós           |  - O utilizador regressa á interface principal (main);
 Condições     |
-
+--------------|-------------------------------------------------------
 Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
 Exceção       |
-
+--------------|------------------------------------------------------
 Pós           |  - N\A
 Condições     |
+--------------|--------
 
 #### Use Case 2 - Map Access (Anonymous User)
-
+---------------------------------------------
 Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Anonymous Users);
-
+--------------|-------------------------------------------------------------------------------------------------------------------------------------
 Pré-Condições | 1. O utilizador  não está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
-              
+--------------|--------------------------------------------------------------              
 Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |    1.1. O utilizador é direcionado para a interface principal da aplicação (main); 
@@ -84,32 +84,32 @@ Cenário Princ.| 1. O utilizador abre a aplicação;
               |     4.1. O menu das opções é apresentado e o utilizador faz a sua seleção; 
               |
               |        4.1.1. Use Case ** 
-           
-           
+--------------|--------------------------                 
 Cenário       |
 Alternativo   |  2.1. O mapa interativo não abre; 
               |
               |     C) *** 
               |
               |  3.1. O utilizador fecha o mapa e regressa á interfáce principal (main); 
-
+--------------|-------------------------------------------------------------------------
 Pós           |  - O utilizador regressa á interface principal (main);
 Condições     |
-
+--------------|-------------------------------------------------------
 Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
 Exceção       |
-
+--------------|------------------------------------------------------
 Pós           |  - N\A
 Condições     |
+--------------|-------
 
 #### Use Case 3 - Add Friend  (Registered Users only)
-
+-----------------------------------------------------
 Descrição     | Use Case destinado á adição de 'amigos' do utilizador;
-
+--------------|-------------------------------------------------------
 Pré-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
               | 3. O utilizador possui o "ID" do perfil do utilizador amigo;
-              
+--------------|-------------------------------------------------------------              
 Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |    1.1. O utilizador é direcionado para a interface principal da aplicação (main); 
@@ -121,8 +121,7 @@ Cenário Princ.| 1. O utilizador abre a aplicação;
               | 3. O utilizador clica no '+', para adicionar um novo amigo e insere o 'ID' do utilizador que pertender adicionar á lista de amigos;
               |
               |    3.3. O amigo é adicionado com sucesso e as novas funções ficam disponivéis;
-           
-           
+--------------|-------------------------------------------------------------------------------           
 Cenário       |
 Alternativo   |  2.2. O utilizador clica num amigo já existente;
               |    
@@ -136,24 +135,25 @@ Alternativo   |  2.2. O utilizador clica num amigo já existente;
               |  3.2. O utilizador insere um 'ID' errado ou inexistente;
               | 
               |     B.1) O utilizador tenta novamente;
-
+--------------|---------------------------------------
 Pós           |  - O utilizador regressa á interface principal (main);
 Condições     |
-
+--------------|-------------------------------------------------------
 Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
 Exceção       |  
-
+--------------|------------------------------------------------------
 Pós           |  - N\A
 Condições     |
+--------------|-------
 
 #### Use Case 4 - Search (All Users)
-
+------------------------------------
 Descrição     | Use Case destinado á procura por estabelecimentos pelo utilizador;
-
+--------------|-------------------------------------------------------------------
 Pré-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
-              | 3. O utilizador sabe o nome do estabelecimento que procura ou, alternamtivamente, a sua localização relativa;
-              
+              | 3. O utilizador sabe o nome do estabelecimento que procura ou, alternativamente, a sua localização relativa;
+--------------|-------------------------------------------------------------------------------------------------------------         
 Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |    1.1. O utilizador é direcionado para a interface principal da aplicação (main); 
@@ -167,8 +167,7 @@ Cenário Princ.| 1. O utilizador abre a aplicação;
               | 3. O utilizador clica no icon do estabelecimento;
               |
               |    3.1. O utilizador é redirecionado para a interface de dados dos estabelecimentos e visualiza a informação disponível;
-           
-           
+--------------|-------------------------------------------------------------------------------------------------------------------------                   
 Cenário       |
 Alternativo   |  2.2. O utilizador insere um nome errado ou não registado na aplicação;
               |    
@@ -178,15 +177,16 @@ Alternativo   |  2.2. O utilizador insere um nome errado ou não registado na ap
               |  3.1. Ainda não existem informações disponiveis para o estabelecimento procurado pelo utilizador;
               |
               |     B) É retornada uma mensagem de erro ao utilizador (i.e., 'Info não disponivel');
-
+--------------|-------------------------------------------------------------------------------------
 Pós           |  - O utilizador regressa á interface do mapa interativo (map);
 Condições     |  - O utilizador regressa á interface principal (main);
-
+--------------|-------------------------------------------------------
 Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
 Exceção       |  
-
+--------------|------------------------------------------------------
 Pós           |  - N\A
 Condições     |
+--------------|-------
 
 ###Tipos de utilizadores e funcionalidades
 
