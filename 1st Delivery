@@ -1,6 +1,6 @@
 <img alt="Logo Universidade" src="/stuf/personal/Universidade/Uni_Logo.png">
 
-#**Project Name**
+#**Friend's**
 #Projeto realizado por João Miguel Pires, nº20200459 e Hélio Divaldo, nº20190928
 #IADE, Faculdade de Design, Tecnologia e Comunicação
 
@@ -24,7 +24,7 @@ Pre-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
 --------------|--------------------------------------------------------------              
 Cenário Princ.| 1. O utilizador abre a aplicação; 
---------------|----------------------------------
+              |
               |     1.1. O utilizador introduz as suas credênciais; 
               |
               |    1.4. O utilizador é direcionado para a interface principal da aplicação (main); 
