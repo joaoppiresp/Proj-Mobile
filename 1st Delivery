@@ -4,21 +4,24 @@
 #Projeto realizado por João Miguel Pires, nº20200459 e Hélio Divaldo, nº20190928
 #IADE, Faculdade de Design, Tecnologia e Comunicação
 
-#Projeto realizado no âmbito das unidades curriculares de Base de Dados, Competências Comunicacionais, Programação Orientada a Objetos e Projeto de Desenvolvimento Móvel
+#Projeto realizado no âmbito das unidades curriculares de Matemática Discreta, Base de Dados, Competências Comunicacionais, Programação Orientada a Objetos, 
+Progamação de Dispositivos Móveis e Projeto de Desenvolvimento Móvel.
 
 ##1º Relatório de Progresso
 
 ###Enquadramento
- A app tem como público-alvo os jovens na faixa etária dos 18 a 30, em fase inicial na região de Lisboa, 
-que têm uma vida social ativa, gostam de frequentar as zonas mais populares, saber os melhores bares e clubes e não sabem como evitar acontecimentos inesperados, 
-como desacatos ou zonas fechadas ao público sem aviso. 
-Será também uma ponte para os jovens mais “tímidos” que procuram novas amizades e desejam melhorar as suas interações sociais.
+A app tem como público-alvo indivíduos com pelo menos 18 anos com qualquer nível de escolaridade, que tenham uma vida social ativa e gostem de frequentar as zonas, 
+bares e clubes mais populares. Também será uma ajuda para os jovens mais tímidos  que procurem novas amizades e desejem melhorar as suas interações sociais.
 A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens, ajudando a manté-los seguros quando se aventuram na noite.
 
-###Palavras chave
-*amigos
-*vida noturna
-*social
+###Palavras-Chave
+*Mobile 
+*Friend 
+*Search 
+*Bars 
+*Mood
+*Vida Noturna 
+*Social
 
 ###Descrição de Casos de Utilização
 
