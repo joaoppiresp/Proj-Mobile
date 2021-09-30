@@ -3,11 +3,36 @@
 #**Friend's**
 #Projeto realizado por João Miguel Pires, nº20200459 e Hélio Divaldo, nº20190928
 #IADE, Faculdade de Design, Tecnologia e Comunicação
-
 #Projeto realizado no âmbito das unidades curriculares de Matemática Discreta, Base de Dados, Competências Comunicacionais, Programação Orientada a Objetos, 
 Progamação de Dispositivos Móveis e Projeto de Desenvolvimento Móvel.
 
 ##1º Relatório de Progresso
+
+###Objetivos
+Aplicação Friend’s visa como projecto mobile elaborar uma app que permita aos utilizadores terem acesso as seguintes funcionalidades:
+**1. Mapa interativo - com densidade relativa de pessoas (utilizadores) presentes nas zonas de Lisboa.
+**1.1 O método principal para a criação deste mapa, será a recolha da localização dos utilizadores da app, de acordo com o estipulado no RGPD.
+
+**2. Utilizadores - será possível registar-se na aplicação preenchendo alguns dados pessoais ou usando a conta gmail.
+**2.1 Utilizadores Anónimos - acesso ao mapa interativo sem registar-se, porém algumas funcionalidades estarão indisponíveis.
+**2.2 Amigos - para utilizadores registados será possível adicionar amigos pelo ID de cada utilizador.
+**2.3 Localizar Amigos - o utilizador faz um pedido para localizar um amigo, e se o outro utilizador aceitar é partilhada a localização. 
+
+**3. Aspetos Interativos - comentários dos utilizadores, sobre bares, presença policial ou ocorrências a evitar em certas zonas, requisitos de entrada,
+etc, com opção de ‘ up & down vote’ de modo a confirmar a veracidade dos comentários.
+
+**4. Bares - procurar bares ou clubs, e as suas respetivas localização e informações disponíveis.
+
+###Ferramentas que já existem
+
+A App Mpbile Friend’s não seria uma app pioneira nessa categoria, onde encontramos app’s como:
+**Foursquare - é uma rede geossocial e de microblogging que permite ao utilizador indicar onde se encontra, e procurar por contatos seus que estejam próximo desse local.
+**Zonato - é um serviço de busca de restaurantes para quem quer sair para jantar, buscar comida ou pedir em casa
+As mais destacadas para escolher os melhores bares e restaurantes na região de lisboa.  
+
+##Diferenciação
+Friend’s seria uma aplicação diferenciada por ter como foco a preocupação com a quantidade de pessoas presentes nas zonas noturnas de Lisboa. 
+Possibilitaria aos utilizadores escolher segundo as suas preferências zonas mais movimentadas ou mais tranquilas.  
 
 ###Enquadramento
 A app tem como público-alvo indivíduos com pelo menos 18 anos com qualquer nível de escolaridade, que tenham uma vida social ativa e gostem de frequentar as zonas, 
@@ -16,9 +41,9 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 
 ###Palavras-Chave
 *Mobile 
-*Friend 
-*Search 
-*Bars 
+*Amigo 
+*Procurar 
+*Bares 
 *Mood
 *Vida Noturna 
 *Social
@@ -215,7 +240,6 @@ Condições     |
 *'instant ping', isto é, a possibilidade de enviar uma notificação a um utilizador 'amigo' com uma mensagem automática (i.e., "Estou a caminho!", "Liga-me por favor", etc);
 
 ###Dados & Permissões 
-
 1. Localização do utilizador
 2. Conta e-mail
 3. Lista de amigos
