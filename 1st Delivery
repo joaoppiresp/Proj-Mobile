@@ -7,20 +7,48 @@
 #Realizado no âmbito das unidades curriculares de Matemática Discreta (Rodolfo Bendoyro), Base de Dados (Miguel Boavida), Competências Comunicacionais (Alexandra Santos), Programação Orientada a Objetos (Miguel Bugalho), 
 Progamação de Dispositivos Móveis (João Dias) e Projeto de Desenvolvimento Móvel (Pedro Rosa).
 
-##1º Relatório de Progresso
+## Relatório de Progresso
 -------------------------------------------------------------------------
 No âmbito do projeto de desenvolvimento mobile e tendo em conta os recentes desenvolvimentos na vida noturna em Lisboa, como desacatos e mudanças recorrêntes nas 
-medidas de segurança impostas, propomo-nos a criar uma app que facilite aos jovens manterem-se a par de tudo á sua volta quando se aventuram pela noite. 
-Acreditamos que a Friend's é uma ideia bastante atual, pois cada vez mais os jovens utilizam a vida noturna como meio de descontrair, 
-renovar as energias e de fugir á realidade caótica das respondabilidades.
+medidas de segurança impostas, propomo-nos a criar uma app que facilite aos jovens manterem-se a par de tudo á sua volta quando se aventuram pela noite.
+Friend’s surgiu com a missão de auxilar os jovens quando quiserem ir para alguma zona noturna de lisboa ao fim de dar acesso a dados como:
+
+•	Map Access (Pessoas na mesma zona) ;
+•	Search Friends ( localizar e mandar uma notificação para um amigo);
+•	Search Bars (Bares por perto e informações disponíveis);
+•	informações partilhadas pelos utilizadores sobre determinadas zonas que serão verificadas pelos votos up/down;
 
 ###Ferramentas e aplicações semelhantes
 -------------------------------------------------------------------------------------
 Algumas das aplicações atualmente existentes no mercado, com semelhanças á nossa são:
 
-*Foursquare - Rede geossocial e de microblogging que permite ao utilizador indicar onde se encontra e procurar por contatos seus que estejam próximo desse local.
+*Foursquare - é uma rede geossocial e de microblogging que permite ao utilizador indicar onde se encontra, e procurar por contatos seus que estejam próximo desse local,
+os mapas utilizados pelo Foursquare são provenientes do OpenStreetMap.
+Link: 
+        https://pt.wikipedia.org/wiki/Foursquare
+        https://www.zomato.com/pt/grande-lisboa
 
-*Zomato - Serviço de procura por estabelecimentos de restauração, bares, cafés e restaurantes, classificados com base em reviews de utilizadores e outros aspetos.   
+Foursquare é uma app similar ao nosso projecto por fornecer aos utilizadores a possibilidade pesquisar amigos por um mapa como a nossa funcionalidade “ Map Acess”.
+
+*Zomato - Serviço de procura por estabelecimentos de restauração, bares, cafés e restaurantes, classificados com base em reviews de utilizadores e outros aspetos. 
+Link: 
+        https://pt.wikipedia.org/wiki/Zomato
+        https://www.zomato.com/pt/grande-lisboa
+
+Zomato é uma app similar ao nosso projecto por fornecer aos utilizadores a possibilidade de pesquisar restaurantes num mapa como a nossa funcionalidade “ Search Bars”.
+
+*Wikinight - A Wikinight é uma plataforma de vida nocturna que reúne de forma gratuita informação sobre eventos, discotecas, 
+bares e artigos com novidades e sugestões. A aplicação também permite realizar todos os pagamentos necessários ao longo do processo de forma virtual, 
+desde a pré-reserva ao pagamento de consumos através de MB Way ou Multibanco.  
+Link : 
+        https://wikinight.eu/pt
+        https://www.noticiasdecoimbra.pt/wikinight-ajuda-os-portugueses-a-regressar-a-vida-noturna/
+
+Wikinigth - Uma app semelhante a nossa por proporcionar o auxílio aos utilizadores que pretendem sair e frequentar as zonas noturnas de lisboa,
+tendo informações como horário, promoções, pagamentos e reservas sobre bares, discotecas e eventos.
+
+Friend’s seria uma aplicação diferenciada por ter como foco a preocupação com a quantidade de pessoas presentes nas zonas noturnas de Lisboa. Possibilitaria 
+aos utilizadores escolher segundo as suas preferências zonas mais movimentadas ou mais tranquilas.  
 
 ###Enquadramento e objetivo
 --------------------------------------------------------------------------
