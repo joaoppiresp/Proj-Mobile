@@ -8,18 +8,18 @@
 Progamação de Dispositivos Móveis (João Dias) e Projeto de Desenvolvimento Móvel (Pedro Rosa).
 
 ## Relatório de Progresso
--------------------------------------------------------------------------
+
 No âmbito do projeto de desenvolvimento mobile e tendo em conta os recentes desenvolvimentos na vida noturna em Lisboa, como desacatos e mudanças recorrêntes nas 
 medidas de segurança impostas, propomo-nos a criar uma app que facilite aos jovens manterem-se a par de tudo á sua volta quando se aventuram pela noite.
-Friend’s surgiu com a missão de auxilar os jovens quando quiserem ir para alguma zona noturna de lisboa ao fim de dar acesso a dados como:
+Friend’s surgiu com a missão de auxilar os jovens quando quiserem ir para alguma zona noturna de lisboa dando acesso a dados como:
 
-•	Map Access (Pessoas na mesma zona) ;
-•	Search Friends ( localizar e mandar uma notificação para um amigo);
-•	Search Bars (Bares por perto e informações disponíveis);
-•	informações partilhadas pelos utilizadores sobre determinadas zonas que serão verificadas pelos votos up/down;
+•	Mapa interativo (visualização da densidade de utilizadores numa determinada área) ;
+•	Search Friends ( localizar e mandar notificações a amigos);
+•	Search Bars (Pesquisa por bares e informações);
+•	Informações partilhadas pelos utilizadores sobre determinadas zonas que serão verificadas pelos votos up/down;
 
 ###Ferramentas e aplicações semelhantes
--------------------------------------------------------------------------------------
+
 Algumas das aplicações atualmente existentes no mercado, com semelhanças á nossa são:
 
 *Foursquare - é uma rede geossocial e de microblogging que permite ao utilizador indicar onde se encontra, e procurar por contatos seus que estejam próximo desse local,
@@ -28,15 +28,15 @@ Link:
         https://pt.wikipedia.org/wiki/Foursquare
         https://www.zomato.com/pt/grande-lisboa
 
-Foursquare é uma app similar ao nosso projecto por fornecer aos utilizadores a possibilidade pesquisar amigos por um mapa como a nossa funcionalidade “ Map Acess”.
+Foursquare é uma app similar ao nosso projecto por fornecer aos utilizadores a possibilidade de pesquisar por amigos num mapa, como a nossa funcionalidade “ Map Acess”.
 
 *Zomato - Serviço de procura por estabelecimentos de restauração, bares, cafés e restaurantes, classificados com base em reviews de utilizadores e outros aspetos. 
 Link: 
         https://pt.wikipedia.org/wiki/Zomato
         https://www.zomato.com/pt/grande-lisboa
 
-Zomato é uma app similar ao nosso projecto por fornecer aos utilizadores a possibilidade de pesquisar restaurantes num mapa como a nossa funcionalidade “ Search Bars”.
-
+O zomato assemelha-se ao nosso projeto no aspeto de procura por estabelecimentos e informações sobre os mesmos.
+        
 *Wikinight - A Wikinight é uma plataforma de vida nocturna que reúne de forma gratuita informação sobre eventos, discotecas, 
 bares e artigos com novidades e sugestões. A aplicação também permite realizar todos os pagamentos necessários ao longo do processo de forma virtual, 
 desde a pré-reserva ao pagamento de consumos através de MB Way ou Multibanco.  
@@ -44,21 +44,21 @@ Link :
         https://wikinight.eu/pt
         https://www.noticiasdecoimbra.pt/wikinight-ajuda-os-portugueses-a-regressar-a-vida-noturna/
 
-Wikinigth - Uma app semelhante a nossa por proporcionar o auxílio aos utilizadores que pretendem sair e frequentar as zonas noturnas de lisboa,
-tendo informações como horário, promoções, pagamentos e reservas sobre bares, discotecas e eventos.
+A Wikinigth é, dentro de todas, a app mais semelhante ao nosso projeto, incluindo várias das nossas funções mas também um aspeto comercial, como promoções, 
+        pagamentos e reservas em bares, discotecas e eventos sociais.
 
-Friend’s seria uma aplicação diferenciada por ter como foco a preocupação com a quantidade de pessoas presentes nas zonas noturnas de Lisboa. Possibilitaria 
-aos utilizadores escolher segundo as suas preferências zonas mais movimentadas ou mais tranquilas.  
+A Friend's distinguiria-se desta última por apresentar ao utilizador a quantidade de outros utilizadores a frequentar cada área noturna, facilitando-lhe assim a escolha do 
+        melhor sitio onde ir.
 
 ###Enquadramento e objetivo
---------------------------------------------------------------------------
+
 A app tem como público-alvo jovens na faixa etária dos 18 anos, que tenham uma vida social ativa e gostem de frequentar as zonas, 
-bares e clubes mais populares. Também será uma ajuda para os jovens mais tímidos que procuram novas amizades e desejam melhorar as suas interações sociais.
+        bares e clubes mais populares. Também será uma ajuda para os jovens mais tímidos que procuram novas amizades e desejam melhorar as suas interações sociais.
 
 A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens, ajudando a manté-los seguros quando se aventuram na noite.
 
 ###Palavras-Chave
---------------------------------------------------------------------------
+
 *Mobile
 
 *Amigo 
@@ -100,7 +100,7 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 
 ###Descrição de Casos de Utilização
 
-#### Use Case 1 - Map Access (Registered User)
+#### Use Case 1 - Map Access 
 ----------------------------------------------
 Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); 
 --------------|-----------------------------------------------------------------------------------------------------------------------------------------
@@ -148,7 +148,7 @@ Pós           |  - N\A
 Condições     |
 --------------|--------
 
-#### Use Case 2 - Map Access (Anonymous User)
+#### Use Case 1.1 - Map Access 
 ---------------------------------------------
 Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Anonymous Users);
 --------------|-------------------------------------------------------------------------------------------------------------------------------------
@@ -186,13 +186,61 @@ Pós           |  - N\A
 Condições     |
 --------------|-------
 
-#### Use Case 3 - Add Friend  (Registered Users only)
+#### Use Case 2 - Add Friend 
 -----------------------------------------------------
 Descrição     | Use Case destinado á adição de 'amigos' do utilizador;
 --------------|-------------------------------------------------------
 Pré-Condições | 1. O utilizador está registado na aplicação;
               | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
               | 3. O utilizador possui o "ID" do perfil do utilizador amigo;
+--------------|-------------------------------------------------------------              
+Cenário Princ.| 1. O utilizador abre a aplicação; 
+              |
+              |    1.1. O utilizador é direcionado para a interface principal da aplicação (main); 
+              |  
+              | 2.  O utilizador clica na tab 'Friends';
+              |
+              |    2.1. O utilizador é redirecionado para a interface dos amigos (friends);
+              |
+              | 3. O utilizador clica no '+', para adicionar um novo amigo e insere o 'ID' do utilizador que pertender adicionar á lista de amigos;
+              |
+              |    3.3. O amigo é adicionado com sucesso;
+              |
+              |    3.4. O utilizador regressa à interface principal;
+--------------|-------------------------------------------------------------------------------           
+Cenário       |
+Alternativo   |  2.2. O utilizador clica num amigo já existente;
+              |    
+              |     A) Use Case ** 
+              |
+              |  3.1. O utilizador 'amigo' recebe uma notificação de 'friend request' e não a aceita;
+              |
+              |     B) O utilizador que fez o 'friend request' recebe uma notificação com a messagem "Amigo não adicionado";
+              |          B.1) O utilizador tenta novamente;
+              |
+              |  3.2. O utilizador insere um 'ID' errado ou inexistente;
+              | 
+              |     B.1) O utilizador tenta novamente;
+              |
+              |  3.4. É executado o Use Case 3 (Friend Functions);  
+--------------|---------------------------------------
+Pós           |  - O utilizador regressa á interface principal (main);
+Condições     |
+--------------|-------------------------------------------------------
+Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
+Exceção       |  
+--------------|------------------------------------------------------
+Pós           |  - N\A
+Condições     |
+--------------|-------
+        
+#### Use Case 3 - Friend functions
+-----------------------------------------------------
+Descrição     | Use Case destinado á utilização das funções disponiveis na 'Friend List'
+--------------|-------------------------------------------------------
+Pré-Condições | 1. O utilizador está registado na aplicação;
+              | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
+              | 3. O utilizador tem amigos na lista de amigos;
 --------------|-------------------------------------------------------------              
 Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
@@ -230,7 +278,7 @@ Pós           |  - N\A
 Condições     |
 --------------|-------
 
-#### Use Case 4 - Search (All Users)
+#### Use Case 4 - Search 
 ------------------------------------
 Descrição     | Use Case destinado á procura por estabelecimentos pelo utilizador;
 --------------|-------------------------------------------------------------------
