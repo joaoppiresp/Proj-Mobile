@@ -9,7 +9,6 @@ Progamação de Dispositivos Móveis (João Dias) e Projeto de Desenvolvimento M
 
 ##Relatório de Progresso
 -------------------------------------------------------------------------
-
 No âmbito do projeto de desenvolvimento mobile e tendo em conta os recentes desenvolvimentos na vida noturna em Lisboa, como desacatos e mudanças recorrêntes nas 
 medidas de segurança impostas, propomo-nos a criar uma app que facilite aos jovens manterem-se a par de tudo á sua volta quando se aventuram pela noite. 
 Acreditamos que a Friend's é uma ideia bastante atual, pois cada vez mais os jovens utilizam a vida noturna como meio de descontrair, 
@@ -20,7 +19,6 @@ renovar as energias e de fugir á realidade caótica das respondabilidades.
 Algumas das aplicações atualmente existentes no mercado, com semelhanças á nossa são:
 
 -*Foursquare - Rede geossocial e de microblogging que permite ao utilizador indicar onde se encontra e procurar por contatos seus que estejam próximo desse local.
-
 -*Zomato - Serviço de procura por estabelecimentos de restauração, bares, cafés e restaurantes, classificados com base em reviews de utilizadores e outros aspetos.
 
 ###Enquadramento e objetivo
@@ -47,8 +45,7 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 *Social
 
 ###Tipos de utilizadores e funcionalidades
-
-
+---------------------------------------------------------------
 1. Registered User
 
     - Registo de amigos e todas as funcionalidades que estes trazem (i.e., Localização dos amigos, 'instant ping'*, etc);
@@ -65,17 +62,18 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 *'instant ping', isto é, a possibilidade de enviar uma notificação a um utilizador 'amigo' com uma mensagem automática (i.e., "Estou a caminho!", "Liga-me por favor", etc);
 
 ###Dados & Permissões 
+-----------------------------------------------------------------------
 1. Localização do utilizador
 2. Conta e-mail
 3. Lista de amigos
 4. Gostos (registados pelo utilizador)
 5. 'ID' do utilizador
 
-
 ###Descrição de Casos de Utilização
+---------------------------------------------------------------------
 
 #### Use Case 1 - Map Access (Registered User)
-----------------------------------------------
+-----------------------------------------------
 Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); 
 --------------|-----------------------------------------------------------------------------------------------------------------------------------------
 Pre-Condições | 1. O utilizador está registado na aplicação;
