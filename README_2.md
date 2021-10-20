@@ -1,4 +1,4 @@
-<img alt="Logo Universidade" url="https://duckduckgo.com/?q=iade+universidade+europeia&iax=images&ia=images&iai=https%3A%2F%2Fwww.ibermagem.pt%2Fimages%2FeventoPhase%2Fthumbnail_iade.jpg">
+![Logo Universidade](https://www.ibermagem.pt/images/eventoPhase/thumbnail_iade.jpg)
 
 # Friend's
 
@@ -114,17 +114,11 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 Descrição   | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); |
 -------------|--------------------------------------------------------------------
 Pre-Condições | 1. O utilizador está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);| 
----------------|------------------------------------------------------------------
 Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador introduz as suas credênciais;<br/><br/>  1.4. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>  2.O utilizador clica no mapa interativo;<br/><br/>  3.O utilizador observa no mapa a densidade de pessoas na zona que pretender (Lisboa);<br/><br/>  4. O utilizador clica nas opções;<br/><br/>    4.1. O menu das opções é apresentado e o utilizador faz a sua seleção;<br/><br/>      4.1.1. Use Case | 
---------------|-------------------------------------------------------------------
 Cenário Alternativo| 1.2. As credênciais do utilizador não se encontram registadas no sitema;<br/><br/>  A) Use Case<br/><br/>1.3. O utilizador introduz uma password incorreta;<br/><br/>  B) Use Case<br/><br/>2.2. O mapa interativo não abre;<br/><br/>  C)<br/><br/>3.1. O utilizador fecha o mapa e regressa á interfáce principal (main);|
---------------|-------------------------------------------------------------------
 Pós Condições|  - O utilizador regressa á interface principal (main);|
--------------|--------------------------------------------------------------------
 Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|
----------------------|------------------------------------------------------------
 Pós Condições|  - N\A|
----------------|------------------------------------------------------------------
 
 
 #### Use Case 1.1 - Map Access 
@@ -132,54 +126,39 @@ Pós Condições|  - N\A|
 
 Descrição| Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Anonymous Users);|
 --------------|-------------------------------------------------------------------
-Pré-Condições | 1. O utilizador  não está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);|
---------------|--------------------------------------------------------------     
-Cenário Princ.| 1. O utilizador abre a aplicação<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.   O utilizador clica no mapa interativo;<br/><br/>3.   O utilizador observa no mapa a densidade de pessoas na zona que pretender (Lisboa);<br/><br/>4. O utilizador clica nas opções;<br/><br/>  4.1. O menu das opções é apresentado e o utilizador faz a sua seleção;<br/><br/>  4.1.1. Use Case x | 
---------------|--------------------------                 
+Pré-Condições | 1. O utilizador  não está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);| 
+Cenário Princ.| 1. O utilizador abre a aplicação<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.   O utilizador clica no mapa interativo;<br/><br/>3.   O utilizador observa no mapa a densidade de pessoas na zona que pretender (Lisboa);<br/><br/>4. O utilizador clica nas opções;<br/><br/>  4.1. O menu das opções é apresentado e o utilizador faz a sua seleção;<br/><br/>  4.1.1. Use Case x |              
 Cenário Alternativo| 2.1. O mapa interativo não abre;<br/><br/>  C)<br/><br/>3.1. O utilizador fecha o mapa e regressa á interfáce principal (main);|
---------------|-------------------------------------------------------------------------
 Pós Condições|  - O utilizador regressa á interface principal (main);|
---------------|-------------------------------------------------------
 Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|
---------------|------------------------------------------------------
 Pós Condições |  - N\A|
---------------|-------
+
 
 #### Use Case 2 - Add Friend 
 -----------------------------------------------------
 
 Descrição| Use Case destinado á adição de 'amigos' do utilizador;|
 --------------|-------------------------------------------------------
-Pré-Condições | 1. O utilizador está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);<br/><br/>  3. O utilizador possui o "ID" do perfil do utilizador amigo;|
---------------|-------------------------------------------------------------              
-Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.  O utilizador clica na tab 'Friends';<br/><br/>  2.1. O utilizador é redirecionado para a interface dos amigos (friends);<br/><br/>3. O utilizador clica no '+', para adicionar um novo amigo e insere o 'ID' do utilizador que pertender adicionar á lista de amigos;<br/><br/>  3.3. O amigo é adicionado com sucesso;<br/><br/>3.4. O utilizador regressa à interface principal;|
---------------|-------------------------------------------------------------------------------           
+Pré-Condições | 1. O utilizador está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);<br/><br/>  3. O utilizador possui o "ID" do perfil do utilizador amigo;|          
+Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.  O utilizador clica na tab 'Friends';<br/><br/>  2.1. O utilizador é redirecionado para a interface dos amigos (friends);<br/><br/>3. O utilizador clica no '+', para adicionar um novo amigo e insere o 'ID' do utilizador que pertender adicionar á lista de amigos;<br/><br/>  3.3. O amigo é adicionado com sucesso;<br/><br/>3.4. O utilizador regressa à interface principal;|        
 Cenário Alternativo|2.2. O utilizador clica num amigo já existente;<br/><br/>  A) Use Case x <br/><br/>3.1. O utilizador 'amigo' recebe uma notificação de 'friend request' e não a aceita;<br/><br/>  B) O utilizador que fez o 'friend request' recebe uma notificação com a messagem "Amigo não adicionado";<br/><br/>  B.1) O utilizador tenta novamente;<br/><br/>3.2. O utilizador insere um 'ID' errado ou inexistente;<br/><br/>  B.1) O utilizador tenta novamente;<br/><br/>3.4. É executado o Use Case 3 (Friend Functions);| 
---------------|---------------------------------------
 Pós Condições|  - O utilizador regressa á interface principal (main);|
---------------|-------------------------------------------------------
 Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|  
---------------|------------------------------------------------------
 Pós Condições|  - N\A|
---------------|-------
-        
+
+      
 #### Use Case 3 - Friend functions
 -----------------------------------------------------
 
 Descrição| Use Case destinado á utilização das funções disponiveis na 'Friend List'|
 --------------|-------------------------------------------------------
-Pré-Condições| 1. O utilizador está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);<br/><br/>3. O utilizador tem amigos na lista de amigos;|
---------------|-------------------------------------------------------------              
-Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.  O utilizador clica na tab 'Friends';<br/><br/>  2.1. O utilizador é redirecionado para a interface dos amigos (friends);<br/><br/>3. O utilizador clica no '+', para adicionar um novo amigo e insere o 'ID' do utilizador que pertender adicionar á lista de amigos;<br/><br/>  3.3. O amigo é adicionado com sucesso e as novas funções ficam disponivéis;|
---------------|-------------------------------------------------------------------------------           
+Pré-Condições| 1. O utilizador está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);<br/><br/>3. O utilizador tem amigos na lista de amigos;|            
+Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.  O utilizador clica na tab 'Friends';<br/><br/>  2.1. O utilizador é redirecionado para a interface dos amigos (friends);<br/><br/>3. O utilizador clica no '+', para adicionar um novo amigo e insere o 'ID' do utilizador que pertender adicionar á lista de amigos;<br/><br/>  3.3. O amigo é adicionado com sucesso e as novas funções ficam disponivéis;|         
 Cenário Alternativo|2.2. O utilizador clica num amigo já existente;<br/><br/>  A) Use Case x<br/><br/>3.1. O utilizador 'amigo' recebe uma notificação de 'friend request' e não a aceita;<br/><br/>  B) O utilizador que fez o 'friend request' recebe uma notificação com a menssagem "Amigo não adicionado";<br/><br/>  B.1) O utilizador tenta novamente;<br/><br/>3.2. O utilizador insere um 'ID' errado ou inexistente;<br/><br/>  B.1) O utilizador tenta novamente;|
---------------|---------------------------------------
 Pós Condições|  - O utilizador regressa á interface principal (main);|
---------------|-------------------------------------------------------
 Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|
---------------|------------------------------------------------------
 Pós Condições|  - N\A|
---------------|-------
+
 
 #### Use Case 4 - Search 
 ------------------------------------
@@ -187,14 +166,8 @@ Pós Condições|  - N\A|
 Descrição| Use Case destinado á procura por estabelecimentos pelo utilizador;|
 --------------|-------------------------------------------------------------------
 Pré-Condições | 1. O utilizador está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);<br/><br/>3. O utilizador sabe o nome do estabelecimento que procura ou, alternativamente, a sua localização relativa;|
---------------|-------------------------------------------------------------------------------------------------------------         
-Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.   O utilizador clica no mapa interativo;<br/><br/>  2.1. O utilizador seleciona a 'search bar' e insere o nome do estabelecimento que procura;<br/><br/>2.3. O utilizador sabe a localização relativa do estabelecimento e procura manualmente no mapa;<br/><br/>3. O utilizador clica no icon do estabelecimento;<br/><br/>3.1. O utilizador é redirecionado para a interface de dados dos estabelecimentos e visualiza a informação disponível;|
---------------|-------------------------------------------------------------------------------------------------------------------------                   
+Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>2.   O utilizador clica no mapa interativo;<br/><br/>  2.1. O utilizador seleciona a 'search bar' e insere o nome do estabelecimento que procura;<br/><br/>2.3. O utilizador sabe a localização relativa do estabelecimento e procura manualmente no mapa;<br/><br/>3. O utilizador clica no icon do estabelecimento;<br/><br/>3.1. O utilizador é redirecionado para a interface de dados dos estabelecimentos e visualiza a informação disponível;|                 
 Cenário Alternativo|2.2. O utilizador insere um nome errado ou não registado na aplicação;<br/><br/>  A) É mostrada uma mensagem de erro;<br/><br/>  A.1) O utilizador tenta procurar novamente;<br/><br/>3.1. Ainda não existem informações disponiveis para o estabelecimento procurado pelo utilizador;<br/><br/>  B) É retornada uma mensagem de erro ao utilizador (i.e., 'Info não disponivel');|
---------------|-------------------------------------------------------------------------------------
 Pós Condições|  - O utilizador regressa á interface do mapa interativo (map);<br/><br/>   - O utilizador regressa á interface principal (main);|
---------------|-------------------------------------------------------
 Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|
---------------|------------------------------------------------------
 Pós Condições|  - N\A|
---------------|-------
