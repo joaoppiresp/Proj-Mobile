@@ -1,4 +1,4 @@
-<img alt="Logo Universidade" src="https://duckduckgo.com/?q=iade+universidade+europeia&iax=images&ia=images&iai=https%3A%2F%2Fwww.ibermagem.pt%2Fimages%2FeventoPhase%2Fthumbnail_iade.jpg">
+<img alt="Logo Universidade" url="https://duckduckgo.com/?q=iade+universidade+europeia&iax=images&ia=images&iai=https%3A%2F%2Fwww.ibermagem.pt%2Fimages%2FeventoPhase%2Fthumbnail_iade.jpg">
 
 #**Friend's**
 
