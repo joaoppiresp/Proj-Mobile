@@ -1,112 +1,120 @@
 <img alt="Logo Universidade" url="https://duckduckgo.com/?q=iade+universidade+europeia&iax=images&ia=images&iai=https%3A%2F%2Fwww.ibermagem.pt%2Fimages%2FeventoPhase%2Fthumbnail_iade.jpg">
 
-#**Friend's**
+# Friend's
 
-#Projeto realizado por João Miguel Pires, nº20200459 e Hélio Divaldo, nº20190928
-#IADE, Faculdade de Design, Tecnologia e Comunicação
-#Realizado no âmbito das unidades curriculares de Matemática Discreta (Rodolfo Bendoyro), Base de Dados (Miguel Boavida), Competências Comunicacionais (Alexandra Santos), Programação Orientada a Objetos (Miguel Bugalho), 
-Progamação de Dispositivos Móveis (João Dias) e Projeto de Desenvolvimento Móvel (Pedro Rosa).
+<p style="text-align: center;">Projeto realizado por João Miguel Pires, nº20200459 e Hélio Divaldo, nº20190928</p>
 
-## Relatório de Progresso
+<p style="text-align: center;">IADE, Faculdade de Design, Tecnologia e Comunicação</p>
+
+<p style="text-align: center;">Realizado no âmbito das unidades curriculares de Matemática Discreta (Rodolfo Bendoyro), Base de Dados (Miguel Boavida), Competências Comunicacionais (Alexandra Santos), Programação Orientada a Objetos (Miguel Bugalho), 
+Progamação de Dispositivos Móveis (João Dias) e Projeto de Desenvolvimento Móvel (Pedro Rosa).</p>
+
+
+# Relatório de Progresso
 
 No âmbito do projeto de desenvolvimento mobile e tendo em conta os recentes desenvolvimentos na vida noturna em Lisboa, como desacatos e mudanças recorrêntes nas 
 medidas de segurança impostas, propomo-nos a criar uma app que facilite aos jovens manterem-se a par de tudo á sua volta quando se aventuram pela noite.
 Friend’s surgiu com a missão de auxilar os jovens quando quiserem ir para alguma zona noturna de lisboa dando acesso a dados como:
 
-•	Mapa interativo (visualização da densidade de utilizadores numa determinada área) ;
-•	Search Friends ( localizar e mandar notificações a amigos);
-•	Search Bars (Pesquisa por bares e informações);
-•	Informações partilhadas pelos utilizadores sobre determinadas zonas que serão verificadas pelos votos up/down;
+-	Mapa interativo (visualização da densidade de utilizadores numa determinada área) ;
+-	Search Friends ( localizar e mandar notificações a amigos);
+-	Search Bars (Pesquisa por bares e informações);
+-	Informações partilhadas pelos utilizadores sobre determinadas zonas que serão verificadas pelos votos up/down;
 
-###Ferramentas e aplicações semelhantes
+### Ferramentas e aplicações semelhantes
 
 Algumas das aplicações atualmente existentes no mercado, com semelhanças á nossa são:
 
-*Foursquare - é uma rede geossocial e de microblogging que permite ao utilizador indicar onde se encontra, e procurar por contatos seus que estejam próximo desse local,
+1. **Foursquare** - é uma rede geossocial e de microblogging que permite ao utilizador indicar onde se encontra, e procurar por contatos seus que estejam próximo desse local,
 os mapas utilizados pelo Foursquare são provenientes do OpenStreetMap.
+<br/><br/>
 Link: 
+<br/><br/>
         https://pt.wikipedia.org/wiki/Foursquare
         https://www.zomato.com/pt/grande-lisboa
 
 Foursquare é uma app similar ao nosso projecto por fornecer aos utilizadores a possibilidade de pesquisar por amigos num mapa, como a nossa funcionalidade “ Map Acess”.
 
-*Zomato - Serviço de procura por estabelecimentos de restauração, bares, cafés e restaurantes, classificados com base em reviews de utilizadores e outros aspetos. 
-Link: 
+2. **Zomato** - Serviço de procura por estabelecimentos de restauração, bares, cafés e restaurantes, classificados com base em reviews de utilizadores e outros aspetos. 
+<br/><br/>
+Link:
+<br/><br/>
         https://pt.wikipedia.org/wiki/Zomato
         https://www.zomato.com/pt/grande-lisboa
 
 O zomato assemelha-se ao nosso projeto no aspeto de procura por estabelecimentos e informações sobre os mesmos.
         
-*Wikinight - A Wikinight é uma plataforma de vida nocturna que reúne de forma gratuita informação sobre eventos, discotecas, 
+3. **Wikinight** - A Wikinight é uma plataforma de vida nocturna que reúne de forma gratuita informação sobre eventos, discotecas, 
 bares e artigos com novidades e sugestões. A aplicação também permite realizar todos os pagamentos necessários ao longo do processo de forma virtual, 
-desde a pré-reserva ao pagamento de consumos através de MB Way ou Multibanco.  
-Link : 
+desde a pré-reserva ao pagamento de consumos através de MB Way ou Multibanco.
+<br/><br/>
+Link :
+<br/><br/>
         https://wikinight.eu/pt
         https://www.noticiasdecoimbra.pt/wikinight-ajuda-os-portugueses-a-regressar-a-vida-noturna/
 
-A Wikinigth é, dentro de todas, a app mais semelhante ao nosso projeto, incluindo várias das nossas funções mas também um aspeto comercial, como promoções, 
+A Wikinight é, dentro de todas, a app mais semelhante ao nosso projeto, incluindo várias das nossas funções mas também um aspeto comercial, como promoções, 
         pagamentos e reservas em bares, discotecas e eventos sociais.
 
-A Friend's distinguiria-se desta última por apresentar ao utilizador a quantidade de outros utilizadores a frequentar cada área noturna, facilitando-lhe assim a escolha do 
-        melhor sitio onde ir.
+A Friend's distinguiria-se desta última por apresentar ao utilizador a quantidade de outros utilizadores a frequentar cada área noturna, facilitando-lhe assim a escolha do melhor sitio onde ir.
 
-###Enquadramento e objetivo
+### Enquadramento e objetivo
 
 A app tem como público-alvo jovens na faixa etária dos 18 anos, que tenham uma vida social ativa e gostem de frequentar as zonas, 
         bares e clubes mais populares. Também será uma ajuda para os jovens mais tímidos que procuram novas amizades e desejam melhorar as suas interações sociais.
 
 A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens, ajudando a manté-los seguros quando se aventuram na noite.
 
-###Palavras-Chave
+### Palavras-Chave
 
-*Mobile
+- Mobile
 
-*Amigo 
+- Amigo 
 
-*Procurar 
+- Procurar 
 
-*Bares 
+- Bares 
 
-*Mood
+- Mood
 
-*Vida Noturna 
+- Vida Noturna 
 
-*Social
+- Social
 
-###Tipos de utilizadores e funcionalidades
+### Tipos de utilizadores e funcionalidades
 
-1. Registered User
+1. **Registered User**
 
-    - Registo de amigos e todas as funcionalidades que estes trazem (i.e., Localização dos amigos, 'instant ping'*, etc);
+    - Registo de amigos e todas as funcionalidades que estes trazem (i.e., Localização dos amigos, 'instant ping'[^1], etc);
     - Pesquisa por estabelecimentos e acesso ás suas informações;
     - Registo de gostos, isto é, informações gerais sobre o utilizador (estas informações serão utilizadas para 'match-making';
     - 'Matching' com outros utilizadores na mesma zona com gostos iguais;
     
-2. Anonymous User
+2. **Anonymous User**
 
     - Acesso ao mapa interativo;
     - Pesquisa por estabelecimentos e acesso ás suas informações;
     
 
-*'instant ping', isto é, a possibilidade de enviar uma notificação a um utilizador 'amigo' com uma mensagem automática (i.e., "Estou a caminho!", "Liga-me por favor", etc);
+[^1]: 'instant ping', isto é, a possibilidade de enviar uma notificação a um utilizador 'amigo' com uma mensagem automática (i.e., "Estou a caminho!", "Liga-me por favor", etc);
 
-###Dados & Permissões 
-1. Localização do utilizador
-2. Conta e-mail
-3. Lista de amigos
-4. Gostos (registados pelo utilizador)
-5. 'ID' do utilizador
+### Dados & Permissões 
+    - Localização do utilizador
+    - Conta e-mail
+    - Lista de amigos
+    - Gostos (registados pelo utilizador)
+    - 'ID' do utilizador
 
 
-###Descrição de Casos de Utilização
+### Descrição de Casos de Utilização
 
 #### Use Case 1 - Map Access 
 ----------------------------------------------
+
 Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); 
---------------|-----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Pre-Condições | 1. O utilizador está registado na aplicação;
-              | 2. O utilizador tem acesso á internet (wifi ou dados móveis);
---------------|--------------------------------------------------------------              
+              | 2. O utilizador tem acesso á internet (wifi ou dados móveis);     
 Cenário Princ.| 1. O utilizador abre a aplicação; 
               |
               |     1.1. O utilizador introduz as suas credênciais; 
@@ -121,8 +129,7 @@ Cenário Princ.| 1. O utilizador abre a aplicação;
               |
               |     4.1. O menu das opções é apresentado e o utilizador faz a sua seleção; 
               |
-              |        4.1.1. Use Case ** 
---------------|--------------------------           
+              |        4.1.1. Use Case **         
 Cenário       |
 Alternativo   |  1.2. As credênciais do utilizador não se encontram registadas no sitema; 
               |
@@ -137,16 +144,13 @@ Alternativo   |  1.2. As credênciais do utilizador não se encontram registadas
               |     C) *** 
               |
               |  3.1. O utilizador fecha o mapa e regressa á interfáce principal (main); 
---------------|-------------------------------------------------------------------------
 Pós           |  - O utilizador regressa á interface principal (main);
 Condições     |
---------------|-------------------------------------------------------
 Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
 Exceção       |
---------------|------------------------------------------------------
 Pós           |  - N\A
 Condições     |
---------------|--------
+
 
 #### Use Case 1.1 - Map Access 
 ---------------------------------------------
