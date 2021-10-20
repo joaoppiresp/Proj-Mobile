@@ -112,19 +112,19 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 ----------------------------------------------
 
 Descrição   | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); |
---------------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Pre-Condições | 1. O utilizador está registado na aplicação;<br/><br/>2. O utilizador tem acesso á internet (wifi ou dados móveis);| 
---------------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Cenário Princ.| 1. O utilizador abre a aplicação;<br/><br/>  1.1. O utilizador introduz as suas credênciais;<br/><br/>  1.4. O utilizador é direcionado para a interface principal da aplicação (main);<br/><br/>  2.O utilizador clica no mapa interativo;<br/><br/>  3.O utilizador observa no mapa a densidade de pessoas na zona que pretender (Lisboa);<br/><br/>  4. O utilizador clica nas opções;<br/><br/>    4.1. O menu das opções é apresentado e o utilizador faz a sua seleção;<br/><br/>      4.1.1. Use Case | 
---------------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Cenário Alternativo| 1.2. As credênciais do utilizador não se encontram registadas no sitema;<br/><br/>  A) Use Case<br/><br/>1.3. O utilizador introduz uma password incorreta;<br/><br/>  B) Use Case<br/><br/>2.2. O mapa interativo não abre;<br/><br/>  C)<br/><br/>3.1. O utilizador fecha o mapa e regressa á interfáce principal (main);|
---------------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Pós Condições|  - O utilizador regressa á interface principal (main);|
---------------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|
---------------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Pós Condições|  - N\A|
---------------|-------------------------------------------------------------------
+---------------------------------------------------------------------------------
 
 
 #### Use Case 1.1 - Map Access 
