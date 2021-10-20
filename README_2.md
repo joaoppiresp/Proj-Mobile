@@ -29,7 +29,6 @@ Algumas das aplicações atualmente existentes no mercado, com semelhanças á n
 os mapas utilizados pelo Foursquare são provenientes do OpenStreetMap.
 <br/><br/>
 Link: 
-<br/><br/>
         https://pt.wikipedia.org/wiki/Foursquare
         https://www.zomato.com/pt/grande-lisboa
 
@@ -38,7 +37,6 @@ Foursquare é uma app similar ao nosso projecto por fornecer aos utilizadores a 
 2. **Zomato** - Serviço de procura por estabelecimentos de restauração, bares, cafés e restaurantes, classificados com base em reviews de utilizadores e outros aspetos. 
 <br/><br/>
 Link:
-<br/><br/>
         https://pt.wikipedia.org/wiki/Zomato
         https://www.zomato.com/pt/grande-lisboa
 
@@ -49,7 +47,6 @@ bares e artigos com novidades e sugestões. A aplicação também permite realiz
 desde a pré-reserva ao pagamento de consumos através de MB Way ou Multibanco.
 <br/><br/>
 Link :
-<br/><br/>
         https://wikinight.eu/pt
         https://www.noticiasdecoimbra.pt/wikinight-ajuda-os-portugueses-a-regressar-a-vida-noturna/
 
@@ -67,19 +64,19 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 
 ### Palavras-Chave
 
-- Mobile
+    - Mobile
 
-- Amigo 
+    - Amigo 
 
-- Procurar 
+    - Procurar 
 
-- Bares 
+    - Bares 
 
-- Mood
+    - Mood
 
-- Vida Noturna 
+    - Vida Noturna 
 
-- Social
+    - Social
 
 ### Tipos de utilizadores e funcionalidades
 
@@ -100,56 +97,56 @@ A app 'Friend's' tem como principal objetivo facilitar a vida social dos jovens,
 
 ### Dados & Permissões 
     - Localização do utilizador
+    
     - Conta e-mail
+    
     - Lista de amigos
+    
     - Gostos (registados pelo utilizador)
+    
     - 'ID' do utilizador
-
 
 ### Descrição de Casos de Utilização
 
 #### Use Case 1 - Map Access 
 ----------------------------------------------
 
-Descrição     | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); 
----------------------------------------------------------------------------------
-Pre-Condições | 1. O utilizador está registado na aplicação;
-              | 2. O utilizador tem acesso á internet (wifi ou dados móveis);     
-Cenário Princ.| 1. O utilizador abre a aplicação; 
-              |
-              |     1.1. O utilizador introduz as suas credênciais; 
-              |
-              |    1.4. O utilizador é direcionado para a interface principal da aplicação (main); 
-              |  
-              |  2.   O utilizador clica no mapa interativo; 
-              |
-              |  3.   O utilizador observa no mapa a densidade de pessoas na zona que pretender (Lisboa); 
-              |
-              |  4. O utilizador clica nas opções; 
-              |
-              |     4.1. O menu das opções é apresentado e o utilizador faz a sua seleção; 
-              |
-              |        4.1.1. Use Case **         
-Cenário       |
-Alternativo   |  1.2. As credênciais do utilizador não se encontram registadas no sitema; 
-              |
-              |     A) Use Case ** 
-              |
-              |  1.3. O utilizador introduz uma password incorreta; 
-              |
-              |     B) Use Case ** 
-              |
-              |  2.2. O mapa interativo não abre; 
-              |
-              |     C) *** 
-              |
-              |  3.1. O utilizador fecha o mapa e regressa á interfáce principal (main); 
-Pós           |  - O utilizador regressa á interface principal (main);
-Condições     |
-Cenários      |  - O utilizador fecha a aplicação a qualquer momento;
-Exceção       |
-Pós           |  - N\A
-Condições     |
+| Descrição   | Use Case destinado à apresentação do movimento de pessoas nas ‘zonas noturnas’ em Lisboa num mapa interativo para 'Non-Anonymous Users); |
+
+|Pre-Condições | 1. O utilizador está registado na aplicação;
+
+                 2. O utilizador tem acesso á internet (wifi ou dados móveis);|   
+|Cenário Princ.| 1. O utilizador abre a aplicação; 
+              
+                   1.1. O utilizador introduz as suas credênciais; 
+              
+                   1.4. O utilizador é direcionado para a interface principal da aplicação (main);
+                
+                 2.   O utilizador clica no mapa interativo; 
+              
+                 3.   O utilizador observa no mapa a densidade de pessoas na zona que pretender (Lisboa); 
+              
+                 4. O utilizador clica nas opções; 
+              
+                    4.1. O menu das opções é apresentado e o utilizador faz a sua seleção; 
+              
+                       4.1.1. Use Case **|        
+|Cenário Alternativo| 1.2. As credênciais do utilizador não se encontram registadas no sitema; 
+              
+                    A) Use Case ** 
+              
+                 1.3. O utilizador introduz uma password incorreta; 
+              
+                    B) Use Case ** 
+              
+                 2.2. O mapa interativo não abre; 
+              
+                    C) *** 
+              
+                 3.1. O utilizador fecha o mapa e regressa á interfáce principal (main);|
+|Pós Condições|  - O utilizador regressa á interface principal (main);|
+|Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|
+|Pós Condições|  - N\A|
 
 
 #### Use Case 1.1 - Map Access 
