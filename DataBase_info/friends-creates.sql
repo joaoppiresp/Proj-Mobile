@@ -61,6 +61,7 @@ CREATE TABLE pricing(
 
 CREATE TABLE spotevents(
                     evnt_date TIMESTAMP,                              --date of the event
+                    event_date_milis FLOAT,                           --date in milisSinceEpoch
                     spot_evnt_id SERIAL UNIQUE,
                     event_name VARCHAR(70),                           --Name of the event        
                     spot_fk INTEGER,                                  --foreign key to infospot

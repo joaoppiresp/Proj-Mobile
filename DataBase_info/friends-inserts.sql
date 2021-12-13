@@ -71,16 +71,16 @@ insert into pricing(price) values(55);
 insert into pricing(price) values(37);
 
 
-insert into spotevents(evnt_date, event_name) values('2021-11-23 17:45:00', 'Noite de Champions League');
-insert into spotevents(evnt_date, event_name) values('2021-11-25 20:30:00', 'Andrea Bocelli ao Vivo');
-insert into spotevents(evnt_date, event_name) values('2021-09-26 19:00:00', 'Noite de Kizomba');
-insert into spotevents(evnt_date, event_name) values('2021-08-21 21:00:00', 'Picanhas e os Melhores Vinhos');
-insert into spotevents(evnt_date, event_name) values('2021-07-03 21:30:00', 'Noite de Karaokê');
-insert into spotevents(evnt_date, event_name) values('2021-11-24 18:45:00', 'Noite de Porto vs Benfica');
-insert into spotevents(evnt_date, event_name) values('2021-10-27 18:30:00', 'Roberta Miranda ao Vivo');
-insert into spotevents(evnt_date, event_name) values('2021-09-30 22:10:10', 'Noite de Samba');
-insert into spotevents(evnt_date, event_name) values('2021-08-29 15:45:00', 'Vitelas e os Melhores Vinhos');
-insert into spotevents(evnt_date, event_name) values('2021-07-28 15:30:00', 'Tarde de Karaokê');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-11-23 17:45:00', 'Noite de Champions League', '1637689500000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-11-25 20:30:00', 'Andrea Bocelli ao Vivo', '1637872200000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-09-26 19:00:00', 'Noite de Kizomba', '1632679200000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-08-21 21:00:00', 'Picanhas e os Melhores Vinhos', '1629576000000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-07-03 21:30:00', 'Noite de Karaokê', '1625344200000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-11-24 18:45:00', 'Noite de Porto vs Benfica', '1637779500000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-10-27 18:30:00', 'Roberta Miranda ao Vivo', '1635355800000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-09-30 22:10:10', 'Noite de Samba', '1633036200000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-08-29 15:45:00', 'Vitelas e os Melhores Vinhos', '1630248300000');
+insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-07-28 15:30:00', 'Tarde de Karaokê', '1627482600000');
 
 
 insert into infospot(spot_name, spot_address)               values('Misc by Tartar-ia', 'Rua da Boavista 14, 1200-067 Lisboa');
