@@ -1,13 +1,13 @@
-insert into users (user_email, user_nm, user_place)                    values ( 'jpl@gmail.com', 'Joaquim Pires Lopes', 'Lisboa');  
-insert into users (user_email, user_phone_number, user_nm)             values ( 'amf@mac.com', '912345678', 'Ana Maria Fonseca');  
-insert into users (user_email, user_nm, user_place)                    values ( 'pa@hotmail.com', 'Paula Antunes', 'lisboa');  
-insert into users (user_email, user_phone_number, user_nm)             values ( 'jrs@mac.com', '934567890', 'Joana Ramalho Silva');  
-insert into users (user_email, user_nm, user_place)                    values ( 'rms@gmail.com', 'Rui Manuel Silva', 'Cascais');  
-insert into users (user_email, user_phone_number, user_nm)             values ( 'ms@hotmail.com', '945678901', 'Manuel Silva');  
-insert into users (user_email, user_phone_number, user_nm, user_place) values ( 'lam@hotmail.com', '956789012', 'Lionel Andres Messi', 'cascais');  
-insert into users (user_email, user_phone_number, user_nm, user_place) values ( 'njr@hotmail.com', '967890123', 'Neymar JR', 'Amadora');  
-insert into users (user_email, user_phone_number, user_nm, user_place) values ( 'kbl@mac.com', '978901234', 'Kylian Mabppé Lottin', 'amadora');  
-insert into users (user_email, user_phone_number, user_nm, user_place) values ( 'cr7@mac.com', '989012345', 'Cristiano Ronaldo', 'Odivelas');
+insert into users (user_email, user_nm, user_place, user_password)                    values ( 'jpl@gmail.com', 'Joaquim Pires Lopes', 'Lisboa', '123ghb@69fgi');  
+insert into users (user_email, user_phone_number, user_nm, user_password)             values ( 'amf@mac.com', '912345678', 'Ana Maria Fonseca', 'hjd€§i98');  
+insert into users (user_email, user_nm, user_place, user_password)                    values ( 'pa@hotmail.com', 'Paula Antunes', 'lisboa', 'plj78@@h');  
+insert into users (user_email, user_phone_number, user_nm, user_password)             values ( 'jrs@mac.com', '934567890', 'Joana Ramalho Silva', 'bncdiewf67');  
+insert into users (user_email, user_nm, user_place, user_password)                    values ( 'rms@gmail.com', 'Rui Manuel Silva', 'Cascais', 'kmnscnjd776');  
+insert into users (user_email, user_phone_number, user_nm, user_password)             values ( 'ms@hotmail.com', '945678901', 'Manuel Silva', 'jdbbhjd5656?');  
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'lam@hotmail.com', '956789012', 'Lionel Andres Messi', 'cascais', 'bsgs45£jj');  
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'njr@hotmail.com', '967890123', 'Neymar JR', 'Amadora', 'ncjdb778');  
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'kbl@mac.com', '978901234', 'Kylian Mabppé Lottin', 'amadora', 'bjdc55');  
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'cr7@mac.com', '989012345', 'Cristiano Ronaldo', 'Odivelas', 'pjfbcdg66*');
 
 
 insert into transptype(trnsp_type, schedual) values('Metro', to_date('2021.11.10','YYYY.MM.DD'));

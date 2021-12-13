@@ -5,6 +5,7 @@ CREATE TABLE users(
                     user_id SERIAL UNIQUE NOT NULL,                   --db Id
                     user_nm VARCHAR(60) NOT NULL,                     --username                      
                     user_place VARCHAR(40),                           --main city
+                    user_password VARCHAR(15),                        --user password (plain text for prototype only)
                     PRIMARY KEY (user_id)
 );
 
