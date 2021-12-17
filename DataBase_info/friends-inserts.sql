@@ -83,12 +83,12 @@ insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-08-
 insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-07-28 15:30:00', 'Tarde de Karaokê', '1627482600000');
 
 
-insert into infospot(spot_name, spot_address)               values('Misc by Tartar-ia', 'Rua da Boavista 14, 1200-067 Lisboa');
-insert into infospot(spot_name, contact_info)               values('Bohemio da Ribeira', '912932007');
-insert into infospot(spot_name, spot_address)               values('SUBA Restaurante','R. de Santa Catarina 1, 1200-401 Lisboa');
-insert into infospot(spot_name, contact_info)               values('Epur','213460519');
-insert into infospot(spot_name, contact_info)               values('Bono Lisboa','937141859');
-insert into infospot(spot_name,spot_address)                values('Restaurante Sinal Verde','Calçada Do Combro 40/44 1200-115 Lisboa');
+insert into infospot(spot_name, contact_info, spot_address) values('Misc by Tartar-ia','915678643', 'Rua da Boavista 14, 1200-067 Lisboa');
+insert into infospot(spot_name, contact_info, spot_address) values('Bohemio da Ribeira', '912932007','Pç. D.Luis I, Nº30 - Loja 10, Lisboa, PT 1200-097');
+insert into infospot(spot_name, contact_info, spot_address) values('SUBA Restaurante','967845123','R. de Santa Catarina 1, 1200-401 Lisboa');
+insert into infospot(spot_name, contact_info, spot_address) values('Epur','213460519','Nacional de Belas Artes 14 R/C, Chiado, Lisboa, PT');
+insert into infospot(spot_name, contact_info, spot_address) values('Bono Lisboa','937141859','Calçada Ferragial, 09, R/c, Lisboa, PT 1200-181');
+insert into infospot(spot_name, contact_info, spot_address) values('Restaurante Sinal Verde','913425643','Calçada Do Combro 40/44 1200-115 Lisboa');
 insert into infospot(spot_name, contact_info, spot_address) values('Restaurante Pedra De Sal', '929320078', 'R.do Diário de Notícias 43 1200-365 Lisboa');
 insert into infospot(spot_name, contact_info, spot_address) values('ALMEIDA & HERRERA LDA', '214600659','TRAVESSA DO ALECRIM 4 1200-019 LISBOA');
 insert into infospot(spot_name, contact_info, spot_address) values('Restaurante Farta Brutos','213426756','Travessa da Espera 16 1200 Lisboa');
