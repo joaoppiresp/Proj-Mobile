@@ -76,6 +76,8 @@ CREATE TABLE infospot(
                     contact_info VARCHAR(30),                         --contact information for the spot
                     spot_address VARCHAR(70),                         --address information for the spot
                     spttype_fk INTEGER,                               --foreign key to spottype
+                    spot_lat Decimal(8,6),                            --latitude for spot
+                    spot_long Decimal(9,6),                           --longitute for spot
                     PRIMARY KEY (spot_id) 
 );
 
@@ -102,8 +104,11 @@ CREATE TABLE eventtype(
 
 CREATE TABLE crowd(
                     crwd_date TIMESTAMP NOT NULL,                     --date of user presence 
-                    crowd_id SERIAL UNIQUE,
-                    user_fk INTEGER,                                 --foreign key to users
+                    crwd_date FLOAT,                                  --date of userpresence
+                    crwd_lat DECIMAL(8,6),                            --latitude of user
+                    crwd_long DECIMAL(9,6),                           --longitude of user
+                    crwd_id SERIAL UNIQUE,
+                    user_fk INTEGER,                                  --foreign key to users
                     spt_fk INTEGER,                                   --foreign key to infospot
                     PRIMARY KEY (crowd_id)
 );  

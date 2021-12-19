@@ -83,16 +83,15 @@ insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-08-
 insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-07-28 15:30:00', 'Tarde de Karaokê', '1627482600000');
 
 
-insert into infospot(spot_name, contact_info, spot_address) values('Misc by Tartar-ia','915678643', 'Rua da Boavista 14, 1200-067 Lisboa');
-insert into infospot(spot_name, contact_info, spot_address) values('Bohemio da Ribeira', '912932007','Pç. D.Luis I, Nº30 - Loja 10, Lisboa, PT 1200-097');
-insert into infospot(spot_name, contact_info, spot_address) values('SUBA Restaurante','967845123','R. de Santa Catarina 1, 1200-401 Lisboa');
-insert into infospot(spot_name, contact_info, spot_address) values('Epur','213460519','Nacional de Belas Artes 14 R/C, Chiado, Lisboa, PT');
-insert into infospot(spot_name, contact_info, spot_address) values('Bono Lisboa','937141859','Calçada Ferragial, 09, R/c, Lisboa, PT 1200-181');
-insert into infospot(spot_name, contact_info, spot_address) values('Restaurante Sinal Verde','913425643','Calçada Do Combro 40/44 1200-115 Lisboa');
-insert into infospot(spot_name, contact_info, spot_address) values('Restaurante Pedra De Sal', '929320078', 'R.do Diário de Notícias 43 1200-365 Lisboa');
-insert into infospot(spot_name, contact_info, spot_address) values('ALMEIDA & HERRERA LDA', '214600659','TRAVESSA DO ALECRIM 4 1200-019 LISBOA');
-insert into infospot(spot_name, contact_info, spot_address) values('Restaurante Farta Brutos','213426756','Travessa da Espera 16 1200 Lisboa');
-insert into infospot(spot_name, contact_info, spot_address) values('Restaurante Brutos Farta','234267567','Rua da raespa 10 1200 Lisboa');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Misc by Tartar-ia','915678643', 'Rua da Boavista 14, 1200-067 Lisboa','38.70876326096513','-9.147637815706911');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Bohemio da Ribeira', '912932007','Pç. D.Luis I, Nº30 - Loja 10, Lisboa, PT 1200-097','38.70787290693633','-9.146137340843996');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('SUBA Restaurante','967845123','R. de Santa Catarina 1, 1200-401 Lisboa','38.7097707114117','-9.146531895960498');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Epur','213460519','Nacional de Belas Artes 14 R/C, Chiado, Lisboa, PT','38.709633678272404','-9.140020895645534');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Bono Lisboa','937141859','Calçada Ferragial, 09, R/c, Lisboa, PT 1200-181','38.707580','-9.141590');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Restaurante Sinal Verde','913425643','Calçada Do Combro 40/44 1200-115 Lisboa','38.714044316485186','-9.147165270071179');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Restaurante Pedra De Sal', '929320078', 'R.do Diário de Notícias 43 1200-365 Lisboa','38.71310866451193','-9.143825577991374');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('ALMEIDA & HERRERA LDA', '214600659','TRAVESSA DO ALECRIM 4 1200-019 LISBOA','38.704070','-9.192950');
+insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Restaurante Farta Brutos','213426756','Travessa da Espera 16 1200 Lisboa','38.711540','-9.143550');
 
 
 insert into friends( friendship_status) values('Pedido Aceite');
