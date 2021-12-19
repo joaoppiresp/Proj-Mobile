@@ -167,9 +167,9 @@ UPDATE pricing SET prctype_fk = 6, spot_fk = 6 WHERE pri_id = 6;
 UPDATE pricing SET prctype_fk = 4, spot_fk = 7 WHERE pri_id = 7;         
 UPDATE pricing SET prctype_fk = 1, spot_fk = 8 WHERE pri_id = 8;           
 UPDATE pricing SET prctype_fk = 5, spot_fk = 9 WHERE pri_id = 9;          
-UPDATE pricing SET prctype_fk = 6, spot_fk = 10 WHERE pri_id = 10; 
+UPDATE pricing SET prctype_fk = 6, spot_fk = 1 WHERE pri_id = 10; 
 UPDATE pricing SET prctype_fk = 5, spot_fk = 9 WHERE pri_id = 11;          
-UPDATE pricing SET prctype_fk = 3, spot_fk = 10 WHERE pri_id = 12;
+UPDATE pricing SET prctype_fk = 3, spot_fk = 5 WHERE pri_id = 12;
 
 
 UPDATE spotevents SET spot_fk = 1, evnttype_fk = 1 WHERE spot_evnt_id = 1; 
@@ -180,8 +180,7 @@ UPDATE spotevents SET spot_fk = 5, evnttype_fk = 5 WHERE spot_evnt_id = 5;
 UPDATE spotevents SET spot_fk = 6, evnttype_fk = 6 WHERE spot_evnt_id = 6; 
 UPDATE spotevents SET spot_fk = 7, evnttype_fk = 1 WHERE spot_evnt_id = 7; 
 UPDATE spotevents SET spot_fk = 8, evnttype_fk = 4 WHERE spot_evnt_id = 8; 
-UPDATE spotevents SET spot_fk = 9                  WHERE spot_evnt_id = 9; 
-UPDATE spotevents SET spot_fk = 10                 WHERE spot_evnt_id = 10; 
+UPDATE spotevents SET spot_fk = 9                  WHERE spot_evnt_id = 9;  
 
 
 UPDATE infospot SET spttype_fk = 2 WHERE spot_id = 1; 
@@ -193,7 +192,6 @@ UPDATE infospot SET spttype_fk = 2 WHERE spot_id = 6;
 UPDATE infospot SET spttype_fk = 5 WHERE spot_id = 7;
 UPDATE infospot SET spttype_fk = 4 WHERE spot_id = 8;
 UPDATE infospot SET spttype_fk = 1 WHERE spot_id = 9;
-UPDATE infospot SET spttype_fk = 2 WHERE spot_id = 10;
 
 
 UPDATE friends SET mainuser_fk = 1 WHERE friend_id = 1; 
@@ -216,14 +214,14 @@ UPDATE friendgroup SET owner_id = 8, friend_fk = 1  WHERE group_id = 5;
 UPDATE friendgroup SET owner_id = 9, friend_fk = 4  WHERE group_id = 6;
 
 
-UPDATE crowd SET user_fk = 1, spt_fk = 1 WHERE crowd_id =1;
-UPDATE crowd SET user_fk = 2, spt_fk = 1 WHERE crowd_id =1;
-UPDATE crowd SET user_fk = 3, spt_fk = 2 WHERE crowd_id =2;
-UPDATE crowd SET user_fk = 4, spt_fk = 2 WHERE crowd_id =2;
-UPDATE crowd SET user_fk = 5, spt_fk = 3 WHERE crowd_id =5;
-UPDATE crowd SET user_fk = 6, spt_fk = 4 WHERE crowd_id =6;
-UPDATE crowd SET user_fk = 7, spt_fk = 5 WHERE crowd_id =7;
-UPDATE crowd SET user_fk = 8, spt_fk = 6 WHERE crowd_id =8;
-UPDATE crowd SET user_fk = 9, spt_fk = 7 WHERE crowd_id =9;
-UPDATE crowd SET user_fk = 10, spt_fk = 8 WHERE crowd_id =10;
+UPDATE crowd SET user_fk = 1, spt_fk = 1 WHERE crwd_id =1;
+UPDATE crowd SET user_fk = 2, spt_fk = 1 WHERE crwd_id =1;
+UPDATE crowd SET user_fk = 3, spt_fk = 2 WHERE crwd_id =2;
+UPDATE crowd SET user_fk = 4, spt_fk = 2 WHERE crwd_id =2;
+UPDATE crowd SET user_fk = 5, spt_fk = 3 WHERE crwd_id =5;
+UPDATE crowd SET user_fk = 6, spt_fk = 4 WHERE crwd_id =6;
+UPDATE crowd SET user_fk = 7, spt_fk = 5 WHERE crwd_id =7;
+UPDATE crowd SET user_fk = 8, spt_fk = 6 WHERE crwd_id =8;
+UPDATE crowd SET user_fk = 9, spt_fk = 7 WHERE crwd_id =9;
+UPDATE crowd SET user_fk = 10, spt_fk = 8 WHERE crwd_id =10;
 

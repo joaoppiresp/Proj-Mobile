@@ -104,13 +104,13 @@ CREATE TABLE eventtype(
 
 CREATE TABLE crowd(
                     crwd_date TIMESTAMP NOT NULL,                     --date of user presence 
-                    crwd_date FLOAT,                                  --date of userpresence
+                    crwd_date_milis FLOAT,                                  --date of userpresence
                     crwd_lat DECIMAL(8,6),                            --latitude of user
                     crwd_long DECIMAL(9,6),                           --longitude of user
                     crwd_id SERIAL UNIQUE,
                     user_fk INTEGER,                                  --foreign key to users
                     spt_fk INTEGER,                                   --foreign key to infospot
-                    PRIMARY KEY (crowd_id)
+                    PRIMARY KEY (crwd_id)
 );  
 
 --foreign keys
@@ -147,7 +147,7 @@ ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 ALTER TABLE transportation
 add constraint transportation_fk_crowd
-foreign key (crowd_fk) references crowd(crowd_id)
+foreign key (crowd_fk) references crowd(crwd_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION; 
 
 ALTER TABLE pricing
