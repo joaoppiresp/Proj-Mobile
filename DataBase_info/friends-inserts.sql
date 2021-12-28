@@ -1,6 +1,6 @@
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'jpl@gmail.com','908765432', 'Joaquim Pires Lopes', 'Lisboa', '123ghb@69fgi');  
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'amf@mac.com', '912345678', 'Ana Maria Fonseca','Lisboa','hjd€§i98');  
-insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'pa@hotmail.com','917893567' 'Paula Antunes', 'Santos', 'plj78@@h');  
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'pa@hotmail.com','917893567','Paula Antunes', 'Santos', 'plj78@@h');  
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'jrs@mac.com', '934567890', 'Joana Ramalho Silva','Benfica','bncdiewf67');  
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'rms@gmail.com', '925671469','Rui Manuel Silva', 'Cascais', 'kmnscnjd776');  
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'ms@hotmail.com', '945678901', 'Manuel Silva','Amadora','jdbbhjd5656?');  
