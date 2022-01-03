@@ -11,7 +11,7 @@ CREATE TABLE users(
 
 CREATE TABLE favouritespots(
                     spot_fk INTEGER,                                  --foreign key to infospot
-                    user_fk INTEGER,                                  --foreign key to users
+                    user_fk INTEGER                                   --foreign key to users
 );
 
 CREATE TABLE userinterest(
