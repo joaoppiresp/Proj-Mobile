@@ -9,6 +9,12 @@ CREATE TABLE users(
                     PRIMARY KEY (user_id)
 );
 
+CREATE TABLE favouritespots(
+                    spot_fk INTEGER,                                  --foreign key to infospot
+                    user_fk INTEGER,                                  --foreign key to users
+                    favourites_id INTEGER,                            --primary key
+);
+
 CREATE TABLE userinterest(
                     int_fk INTEGER,                                   --foreign key to interests         
                     users_fk INTEGER,                                  --foreign key to users
