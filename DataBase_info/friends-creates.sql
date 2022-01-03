@@ -12,7 +12,6 @@ CREATE TABLE users(
 CREATE TABLE favouritespots(
                     spot_fk INTEGER,                                  --foreign key to infospot
                     user_fk INTEGER,                                  --foreign key to users
-                    favourites_id INTEGER,                            --primary key
 );
 
 CREATE TABLE userinterest(
@@ -120,6 +119,16 @@ CREATE TABLE crowd(
 );  
 
 --foreign keys
+
+ALTER TABLE favouritespots
+add CONSTRAINT favouritespots_fk_users
+foreign key (user_fk) references users(user_id)
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+ALTER TABLE favouritespots
+add CONSTRAINT favouritespots_fk_infospot
+foreign key (spot_fk) references infospot(spot_id)
+ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 ALTER TABLE friendgroup
 add constraint friendgroup_fk_users
