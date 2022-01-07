@@ -308,24 +308,24 @@ UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 50;
 
 
 
-UPDATE friendgroup SET owner_id = 10, friend_fk = 1  WHERE group_id = 1;
-UPDATE friendgroup SET owner_id = 9, friend_fk = 2  WHERE group_id = 2;
-UPDATE friendgroup SET owner_id = 8, friend_fk = 9  WHERE group_id = 3;
-UPDATE friendgroup SET owner_id = 7, friend_fk = 10 WHERE group_id = 4;
-UPDATE friendgroup SET owner_id = 6, friend_fk = 1  WHERE group_id = 5;
-UPDATE friendgroup SET owner_id = 5, friend_fk = 2  WHERE group_id = 6;
-UPDATE friendgroup SET owner_id = 10, friend_fk = 3  WHERE group_id = 7;
-UPDATE friendgroup SET owner_id = 9, friend_fk = 4  WHERE group_id = 8;
-UPDATE friendgroup SET owner_id = 8, friend_fk = 7  WHERE group_id = 9;
-UPDATE friendgroup SET owner_id = 7, friend_fk = 8 WHERE group_id = 10;
-UPDATE friendgroup SET owner_id = 6, friend_fk = 3  WHERE group_id = 11;
-UPDATE friendgroup SET owner_id = 5, friend_fk = 4  WHERE group_id = 12;
-UPDATE friendgroup SET owner_id = 10, friend_fk = 5  WHERE group_id = 13;
-UPDATE friendgroup SET owner_id = 9, friend_fk = 6  WHERE group_id = 14;
-UPDATE friendgroup SET owner_id = 8, friend_fk = 5  WHERE group_id = 15;
-UPDATE friendgroup SET owner_id = 7, friend_fk = 6 WHERE group_id = 16;
-UPDATE friendgroup SET owner_id = 6, friend_fk = 5  WHERE group_id = 17;
-UPDATE friendgroup SET owner_id = 5, friend_fk = 6  WHERE group_id = 18;
+insert into friendgroup(group_fk, owner_id, friend_fk) values(1,10,1);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(1,10,3);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(1,10,5);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(2,9,2);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(2,9,4);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(2,9,6);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(3,8,9);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(3,8,7);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(3,8,5);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(4,7,10);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(4,7,8);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(4,7,6);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(5,6,1);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(5,6,3);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(5,6,5);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(6,5,2);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(6,5,4);
+insert into friendgroup(group_fk, owner_id, friend_fk) values(6,5,6);
 
 
 UPDATE crowd SET user_fk = 1, spt_fk = 1 WHERE crwd_id =1;
