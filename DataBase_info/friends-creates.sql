@@ -87,10 +87,12 @@ CREATE TABLE infospot(
 );
 
 CREATE TABLE friends(
-                    mainuser_fk INTEGER,                              --foreign key to users (main user)
-                    friend_id SERIAL UNIQUE,                         
-                    friendship_status text,                           --status of friendship (accept, pending, etc)
-                    PRIMARY KEY (friend_id)
+                    senderid INTEGER,                                 --id for user who made the friendship request
+                    receiverid INTEGER,                               --id for user who has to act on the request
+                    friendship_status text,                           --accepted, declined, blocked      
+                    actiontakerid INTEGER,                            --id of user of took the action on that row
+                    datetimes DATETIME,                               --date and time of the action
+                    PRIMARY KEY (senderid,receiverid,datetimes,friendship_status)
 );
 
 CREATE TABLE friendgroup(
@@ -118,7 +120,7 @@ CREATE TABLE crowd(
                     PRIMARY KEY (crwd_id)
 );  
 
---foreign keys
+--constraints
 
 ALTER TABLE favouritespots
 add CONSTRAINT favouritespots_fk_users
@@ -151,8 +153,15 @@ foreign key (int_fk) references interests(interest_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION; 
 
 ALTER TABLE friends
-add constraint friends_fk_users
-foreign key (mainuser_fk) references users(user_id)
+add constraint friendsToactiontakerid_fk foreign key (actiontakerid) references users(user_id)
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+ALTER TABLE friends
+add constraint friendsToreceiverid_fk foreign key (receiverid) references users(user_id)
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+ALTER TABLE friends
+add constraint friendsTosenderid_fk foreign key (senderid) references users(user_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION; 
 
 ALTER TABLE transportation
