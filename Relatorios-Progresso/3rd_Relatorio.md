@@ -171,6 +171,3 @@ Pós Condições|  - O utilizador regressa á interface do mapa interativo (map)
 Cenários Exceção|  - O utilizador fecha a aplicação a qualquer momento;|
 Pós Condições|  - N\A|
 
-### link para documentação REST
-
-https://docs.google.com/document/d/19cgmY4NA8oFBBQW99WNLrQE5YYrjp8oQD2tHuPVOyN4/edit?usp=sharing
