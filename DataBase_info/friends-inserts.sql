@@ -147,24 +147,12 @@ insert into friends( friendship_status) values('Pedido Aceite');
 
 
 
-insert into friendgroup(group_name) values('Nigthhhhhhhhhh');
-insert into friendgroup(group_name) values('Mexer as madeiras');
-insert into friendgroup(group_name) values('Ana Aniversário');
-insert into friendgroup(group_name) values('Bocelli Goooo');
-insert into friendgroup(group_name) values('Cantar ate cair no Karaokê');
-insert into friendgroup(group_name) values('Vamos ao Noite de Champions');
-insert into friendgroup(group_name) values('Nigthhhhhhhhhh');
-insert into friendgroup(group_name) values('Mexer as madeiras');
-insert into friendgroup(group_name) values('Ana Aniversário');
-insert into friendgroup(group_name) values('Bocelli Goooo');
-insert into friendgroup(group_name) values('Cantar ate cair no Karaokê');
-insert into friendgroup(group_name) values('Vamos ao Noite de Champions');
-insert into friendgroup(group_name) values('Nigthhhhhhhhhh');
-insert into friendgroup(group_name) values('Mexer as madeiras');
-insert into friendgroup(group_name) values('Ana Aniversário');
-insert into friendgroup(group_name) values('Bocelli Goooo');
-insert into friendgroup(group_name) values('Cantar ate cair no Karaokê');
-insert into friendgroup(group_name) values('Vamos ao Noite de Champions');
+insert into groups(group_name) values('Nigthhhhhhhhhh');
+insert into groups(group_name) values('Mexer as madeiras');
+insert into groups(group_name) values('Ana Aniversário');
+insert into groups(group_name) values('Bocelli Goooo');
+insert into groups(group_name) values('Cantar ate cair no Karaokê');
+insert into groups(group_name) values('Vamos ao Noite de Champions');
 
 
 insert into eventtype(evnt_type) values('Música ao Vivo');
@@ -317,6 +305,7 @@ UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 47;
 UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 48;
 UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 49;
 UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 50;
+
 
 
 UPDATE friendgroup SET owner_id = 10, friend_fk = 1  WHERE group_id = 1;

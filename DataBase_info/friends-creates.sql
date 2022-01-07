@@ -96,7 +96,7 @@ CREATE TABLE friends(
 CREATE TABLE friendgroup(
                     group_fk INTEGER,                                 --foreign key to groups
                     friendgroup_id SERIAL UNIQUE,
-                    owner_fk INTEGER,                                 --foreign key to users
+                    owner_id INTEGER,                                 --foreign key to users
                     friend_fk INTEGER,                                --foreign key to friends
                     PRIMARY KEY (friendgroup_id)
 );
@@ -138,7 +138,7 @@ ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 ALTER TABLE friendgroup
 add constraint friendgroup_fk_users
-foreign key (owner_fk) references users(user_id) 
+foreign key (owner_id) references users(user_id) 
 ON DELETE NO ACTION ON UPDATE NO ACTION; 
 
 ALTER TABLE friendgroup
