@@ -94,10 +94,16 @@ CREATE TABLE friends(
 );
 
 CREATE TABLE friendgroup(
-                    group_name text,                                  --friend group's name (user defined)
+                    group_fk INTEGER,                                 --foreign key to groups
+                    friendgroup_id SERIAL UNIQUE,
+                    owner_fk INTEGER,                                 --foreign key to users
+                    friend_fk INTEGER,                                --foreign key to friends
+                    PRIMARY KEY (friendgroup_id)
+);
+
+CREATE TABLE groups(
+                    group_name text,                                    --group available for the friendgroup to pick
                     group_id SERIAL UNIQUE,
-                    owner_id INTEGER,                                 --foreign key to users
-                    friend_fk INTEGER,                                 --foreign key to friends
                     PRIMARY KEY (group_id)
 );
 
@@ -109,7 +115,7 @@ CREATE TABLE eventtype(
 
 CREATE TABLE crowd(
                     crwd_date TIMESTAMP NOT NULL,                     --date of user presence 
-                    crwd_date_milis FLOAT,                                  --date of userpresence
+                    crwd_date_milis FLOAT,                            --date of userpresence
                     crwd_lat DECIMAL(8,6),                            --latitude of user
                     crwd_long DECIMAL(9,6),                           --longitude of user
                     crwd_id SERIAL UNIQUE,
@@ -132,13 +138,19 @@ ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 ALTER TABLE friendgroup
 add constraint friendgroup_fk_users
-foreign key (owner_id) references users(user_id) 
+foreign key (owner_fk) references users(user_id) 
 ON DELETE NO ACTION ON UPDATE NO ACTION; 
 
 ALTER TABLE friendgroup
 add constraint friendgroup_fk_friends
 foreign key (friend_fk) references friends(friend_id)
 ON DELETE NO ACTION ON UPDATE NO ACTION; 
+
+ALTER TABLE friendgroup
+add constraint friendgroup_fk_groups
+foreign key (group_fk) references groups(group_id) 
+ON DELETE NO ACTION ON UPDATE NO ACTION; 
+
 
 ALTER TABLE userinterest
 add constraint userinterest_fk_users
