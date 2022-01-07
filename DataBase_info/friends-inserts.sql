@@ -306,26 +306,24 @@ UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 48;
 UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 49;
 UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 50;
 
-
-
-insert into friendgroup(group_fk, owner_id, friend_fk) values(1,10,1);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(1,10,3);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(1,10,5);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(2,9,2);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(2,9,4);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(2,9,6);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(3,8,9);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(3,8,7);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(3,8,5);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(4,7,10);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(4,7,8);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(4,7,6);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(5,6,1);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(5,6,3);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(5,6,5);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(6,5,2);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(6,5,4);
-insert into friendgroup(group_fk, owner_id, friend_fk) values(6,5,6);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Nigthhhhhhhhhh',10,1);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Nigthhhhhhhhhh',10,3);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Nigthhhhhhhhhh',10,5);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Mexer as madeiras',9,2);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Mexer as madeiras',9,4);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Mexer as madeiras',9,6);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Ana Aniversário',8,9);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Ana Aniversário',8,7);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Ana Aniversário',8,5);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Bocelli Goooo',7,10);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Bocelli Goooo',7,8);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Bocelli Goooo',7,6);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Cantar ate cair no Karaokê',6,1);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Cantar ate cair no Karaokê',6,3);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Cantar ate cair no Karaokê',6,5);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Vamos ao Noite de Champions',5,2);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Vamos ao Noite de Champions',5,4);
+insert into friendgroup(group_name, owner_id, friend_fk) values('Vamos ao Noite de Champions',5,6);
 
 
 UPDATE crowd SET user_fk = 1, spt_fk = 1 WHERE crwd_id =1;

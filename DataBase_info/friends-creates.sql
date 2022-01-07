@@ -99,7 +99,7 @@ CREATE TABLE friendgroup(
                     group_name text,                                    --group available for the friendgroup to pick
                     friendgroup_id SERIAL UNIQUE,
                     owner_id INTEGER,                                 --foreign key to users
-                    friend_id INTEGER,                                
+                    friend_fk INTEGER,                                
                     PRIMARY KEY (friendgroup_id)
 );
 
