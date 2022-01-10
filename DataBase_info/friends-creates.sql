@@ -56,23 +56,17 @@ CREATE TABLE interests(
 
 CREATE TABLE pricing(
                     price money,                                      --amount to pay (varying value)
-                    pri_id SERIAL UNIQUE,                             
                     prctype_fk INTEGER,                               --foreign key to pricetype
                     spot_fk INTEGER,                                  --foreign key to infospot
-                    PRIMARY KEY (pri_id)
 );
 
-
-
 CREATE TABLE spotevents(
-                    evnt_date TIMESTAMP,                              --date of the event
                     event_date_milis FLOAT,                           --date in milisSinceEpoch
                     spot_evnt_id SERIAL UNIQUE,
                     event_name VARCHAR(70),                           --Name of the event        
                     spot_fk INTEGER,                                  --foreign key to infospot
                     evnttype_fk INTEGER,                               --foreign key to eventtype
                     PRIMARY KEY (spot_evnt_id)
-
 );
 
 CREATE TABLE infospot(
@@ -81,26 +75,26 @@ CREATE TABLE infospot(
                     contact_info VARCHAR(30),                         --contact information for the spot
                     spot_address VARCHAR(70),                         --address information for the spot
                     spttype_fk INTEGER,                               --foreign key to spottype
-                    spot_lat Decimal(8,6),                            --latitude for spot
-                    spot_long Decimal(9,6),                           --longitute for spot
+                    spot_lat Decimal(8,6),                            --latitude for spot (markers)
+                    spot_long Decimal(9,6),                           --longitute for spot (markers)
                     PRIMARY KEY (spot_id) 
 );
 
 CREATE TABLE friends(
-                    senderid INTEGER,                                 --id for user who made the friendship request
-                    receiverid INTEGER,                               --id for user who has to act on the request
+                    senderid INTEGER,                                 --id for user who made the friendship request (fk to users)
+                    receiverid INTEGER,                               --id for user who has to act on the request (fk to users)
                     friendship_status text,                           --accepted, declined, blocked      
                     actiontakerid INTEGER,                            --id of user of took the action on that row
-                    datetimes DATETIME,                               --date and time of the action
-                    PRIMARY KEY (senderid,receiverid,datetimes,friendship_status)
+                    date_time_milis FLOAT,                            --date and time of the action
+                    PRIMARY KEY (senderid,receiverid,friendship_status)
 );
 
+
 CREATE TABLE friendgroup(
-                    group_name text,                                    --group available for the friendgroup to pick
-                    friendgroup_id SERIAL UNIQUE,
+                    group_name TEXT,                                  --name given to the group by the owner user
                     owner_id INTEGER,                                 --foreign key to users
-                    friend_fk INTEGER,                                
-                    PRIMARY KEY (friendgroup_id)
+                    friend_fk INTEGER,                                --foreign key to friends
+                    friendship_truth TEXT                             --always 'A' (for fk porpuses)
 );
 
 CREATE TABLE eventtype(
@@ -110,7 +104,6 @@ CREATE TABLE eventtype(
 );
 
 CREATE TABLE crowd(
-                    crwd_date TIMESTAMP NOT NULL,                     --date of user presence 
                     crwd_date_milis FLOAT,                            --date of userpresence
                     crwd_lat DECIMAL(8,6),                            --latitude of user
                     crwd_long DECIMAL(9,6),                           --longitude of user
@@ -135,6 +128,11 @@ ON DELETE NO ACTION ON UPDATE NO ACTION;
 ALTER TABLE friendgroup
 add constraint friendgroup_fk_users
 foreign key (owner_id) references users(user_id) 
+ON DELETE NO ACTION ON UPDATE NO ACTION; 
+
+ALTER TABLE friendgroup
+add constraint friendgroupTofriend_fk
+foreign key (friend_fk,friendship_truth,owner_id) references friends(receiverid,friendship_status,senderid)
 ON DELETE NO ACTION ON UPDATE NO ACTION; 
 
 ALTER TABLE userinterest
