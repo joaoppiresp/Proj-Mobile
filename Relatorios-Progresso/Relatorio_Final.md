@@ -101,9 +101,8 @@ Friend’s seria uma aplicação diferenciada por ter como foco a preocupação 
     
     - 'ID' do utilizador
     
-    - 'Place'[^2] local que frequenta mais
-
-[^2]: 'Place', ao facultar esta informação, o user poderá receber notificações de eventos que iram ocorrer na sua zona favorita;
+    - 'Place' local que frequenta mais
+    
 
 ### Descrição de Casos de Utilização
 
