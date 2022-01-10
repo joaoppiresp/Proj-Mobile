@@ -71,16 +71,16 @@ insert into pricing(price) values(55);
 insert into pricing(price) values(37);
 
 
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-11-23 17:45:00', 'Noite de Champions League', '1637689500000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-11-25 20:30:00', 'Andrea Bocelli ao Vivo', '1637872200000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-09-26 19:00:00', 'Noite de Kizomba', '1632679200000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-08-21 21:00:00', 'Picanhas e os Melhores Vinhos', '1629576000000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-07-03 21:30:00', 'Noite de Karaokê', '1625344200000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-11-24 18:45:00', 'Noite de Porto vs Benfica', '1637779500000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-10-27 18:30:00', 'Roberta Miranda ao Vivo', '1635355800000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-09-30 22:10:10', 'Noite de Samba', '1633036200000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-08-29 15:45:00', 'Vitelas e os Melhores Vinhos', '1630248300000');
-insert into spotevents(evnt_date, event_name, event_date_milis) values('2021-07-28 15:30:00', 'Tarde de Karaokê', '1627482600000');
+insert into spotevents(event_name, event_date_milis) values('Noite de Champions League', '1637689500000');
+insert into spotevents(event_name, event_date_milis) values('Andrea Bocelli ao Vivo', '1637872200000');
+insert into spotevents(event_name, event_date_milis) values('Noite de Kizomba', '1632679200000');
+insert into spotevents(event_name, event_date_milis) values('Picanhas e os Melhores Vinhos', '1629576000000');
+insert into spotevents(event_name, event_date_milis) values('Noite de Karaokê', '1625344200000');
+insert into spotevents(event_name, event_date_milis) values('Noite de Porto vs Benfica', '1637779500000');
+insert into spotevents(event_name, event_date_milis) values('Roberta Miranda ao Vivo', '1635355800000');
+insert into spotevents(event_name, event_date_milis) values('Noite de Samba', '1633036200000');
+insert into spotevents(event_name, event_date_milis) values('Vitelas e os Melhores Vinhos', '1630248300000');
+insert into spotevents(event_name, event_date_milis) values('Tarde de Karaokê', '1627482600000');
 
 
 insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Misc by Tartar-ia','915678643', 'Rua da Boavista 14, 1200-067 Lisboa','38.70876326096513','-9.147637815706911');
@@ -94,65 +94,22 @@ insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long)
 insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Restaurante Farta Brutos','213426756','Travessa da Espera 16 1200 Lisboa','38.711540','-9.143550');
 
 
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-insert into friends( friendship_status) values('Aguarde');
-insert into friends( friendship_status) values('Pedido Recusado');
-insert into friends( friendship_status) values('Pedido Aceite');
-
-
-
-insert into groups(group_name) values('Nigthhhhhhhhhh');
-insert into groups(group_name) values('Mexer as madeiras');
-insert into groups(group_name) values('Ana Aniversário');
-insert into groups(group_name) values('Bocelli Goooo');
-insert into groups(group_name) values('Cantar ate cair no Karaokê');
-insert into groups(group_name) values('Vamos ao Noite de Champions');
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,2,'R',1);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,3,'R',1);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,6,'R',1);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,10,'R',1);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,2,'R',4);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(6,3,'R',6);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(8,6,'R',8);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,10,'R',4);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,2,'A',2);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,3,'A',3);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,6,'D',6);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,10,'A',10);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,2,'B',2);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(6,3,'A',3);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(8,6,'A',6);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,10,'A',10);
 
 
 insert into eventtype(evnt_type) values('Música ao Vivo');
@@ -161,18 +118,6 @@ insert into eventtype(evnt_type) values('Degustação de Vinho');
 insert into eventtype(evnt_type) values('Futebol + Bebidas');
 insert into eventtype(evnt_type) values('Dança + Jantar');
 insert into eventtype(evnt_type) values('Rock Night');
-
-
-insert into crowd(crwd_date) values(to_date('2021.11.23','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.11.25','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.09.26','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.08.21','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.07.03','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.11.24','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.10.27','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.09.30','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.08.29','YYYY.MM.DD'));
-insert into crowd(crwd_date) values(to_date('2021.07.28','YYYY.MM.DD'));
 
 
 insert into userinterest(int_fk, users_fk) values(1, 1);
@@ -255,85 +200,9 @@ UPDATE infospot SET spttype_fk = 4 WHERE spot_id = 8;
 UPDATE infospot SET spttype_fk = 1 WHERE spot_id = 9;
 
 
-UPDATE friends SET mainuser_fk = 1 WHERE friend_id = 1; 
-UPDATE friends SET mainuser_fk = 1 WHERE friend_id = 2;
-UPDATE friends SET mainuser_fk = 1 WHERE friend_id = 3;
-UPDATE friends SET mainuser_fk = 1 WHERE friend_id = 4; 
-UPDATE friends SET mainuser_fk = 1 WHERE friend_id = 5;
-UPDATE friends SET mainuser_fk = 2 WHERE friend_id = 6;
-UPDATE friends SET mainuser_fk = 2 WHERE friend_id = 7; 
-UPDATE friends SET mainuser_fk = 2 WHERE friend_id = 8;
-UPDATE friends SET mainuser_fk = 2 WHERE friend_id = 9;
-UPDATE friends SET mainuser_fk = 2 WHERE friend_id = 10;
-UPDATE friends SET mainuser_fk = 3 WHERE friend_id = 11; 
-UPDATE friends SET mainuser_fk = 3 WHERE friend_id = 12;
-UPDATE friends SET mainuser_fk = 3 WHERE friend_id = 13;
-UPDATE friends SET mainuser_fk = 3 WHERE friend_id = 14; 
-UPDATE friends SET mainuser_fk = 3 WHERE friend_id = 15;
-UPDATE friends SET mainuser_fk = 4 WHERE friend_id = 16;
-UPDATE friends SET mainuser_fk = 4 WHERE friend_id = 17; 
-UPDATE friends SET mainuser_fk = 4 WHERE friend_id = 18;
-UPDATE friends SET mainuser_fk = 4 WHERE friend_id = 19;
-UPDATE friends SET mainuser_fk = 4 WHERE friend_id = 20;
-UPDATE friends SET mainuser_fk = 5 WHERE friend_id = 21; 
-UPDATE friends SET mainuser_fk = 5 WHERE friend_id = 22;
-UPDATE friends SET mainuser_fk = 5 WHERE friend_id = 23;
-UPDATE friends SET mainuser_fk = 5 WHERE friend_id = 24; 
-UPDATE friends SET mainuser_fk = 5 WHERE friend_id = 25;
-UPDATE friends SET mainuser_fk = 6 WHERE friend_id = 26;
-UPDATE friends SET mainuser_fk = 6 WHERE friend_id = 27; 
-UPDATE friends SET mainuser_fk = 6 WHERE friend_id = 28;
-UPDATE friends SET mainuser_fk = 6 WHERE friend_id = 29;
-UPDATE friends SET mainuser_fk = 6 WHERE friend_id = 30;
-UPDATE friends SET mainuser_fk = 7 WHERE friend_id = 31; 
-UPDATE friends SET mainuser_fk = 7 WHERE friend_id = 32;
-UPDATE friends SET mainuser_fk = 7 WHERE friend_id = 33;
-UPDATE friends SET mainuser_fk = 7 WHERE friend_id = 34; 
-UPDATE friends SET mainuser_fk = 7 WHERE friend_id = 35;
-UPDATE friends SET mainuser_fk = 8 WHERE friend_id = 36;
-UPDATE friends SET mainuser_fk = 8 WHERE friend_id = 37; 
-UPDATE friends SET mainuser_fk = 8 WHERE friend_id = 38;
-UPDATE friends SET mainuser_fk = 8 WHERE friend_id = 39;
-UPDATE friends SET mainuser_fk = 8 WHERE friend_id = 40;
-UPDATE friends SET mainuser_fk = 9 WHERE friend_id = 41; 
-UPDATE friends SET mainuser_fk = 9 WHERE friend_id = 42;
-UPDATE friends SET mainuser_fk = 9 WHERE friend_id = 43;
-UPDATE friends SET mainuser_fk = 9 WHERE friend_id = 44; 
-UPDATE friends SET mainuser_fk = 9 WHERE friend_id = 45;
-UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 46;
-UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 47; 
-UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 48;
-UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 49;
-UPDATE friends SET mainuser_fk = 10 WHERE friend_id = 50;
-
-insert into friendgroup(group_name, owner_id, friend_fk) values('Nigthhhhhhhhhh',10,1);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Nigthhhhhhhhhh',10,3);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Nigthhhhhhhhhh',10,5);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Mexer as madeiras',9,2);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Mexer as madeiras',9,4);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Mexer as madeiras',9,6);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Ana Aniversário',8,9);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Ana Aniversário',8,7);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Ana Aniversário',8,5);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Bocelli Goooo',7,10);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Bocelli Goooo',7,8);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Bocelli Goooo',7,6);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Cantar ate cair no Karaokê',6,1);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Cantar ate cair no Karaokê',6,3);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Cantar ate cair no Karaokê',6,5);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Vamos ao Noite de Champions',5,2);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Vamos ao Noite de Champions',5,4);
-insert into friendgroup(group_name, owner_id, friend_fk) values('Vamos ao Noite de Champions',5,6);
+insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniersario helio',1,2,'A');
+insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniversario helio',1,3,'A');
+insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniversario helio',1,10,'A');
 
 
-UPDATE crowd SET user_fk = 1, spt_fk = 1 WHERE crwd_id =1;
-UPDATE crowd SET user_fk = 2, spt_fk = 1 WHERE crwd_id =1;
-UPDATE crowd SET user_fk = 3, spt_fk = 2 WHERE crwd_id =2;
-UPDATE crowd SET user_fk = 4, spt_fk = 2 WHERE crwd_id =2;
-UPDATE crowd SET user_fk = 5, spt_fk = 3 WHERE crwd_id =5;
-UPDATE crowd SET user_fk = 6, spt_fk = 4 WHERE crwd_id =6;
-UPDATE crowd SET user_fk = 7, spt_fk = 5 WHERE crwd_id =7;
-UPDATE crowd SET user_fk = 8, spt_fk = 6 WHERE crwd_id =8;
-UPDATE crowd SET user_fk = 9, spt_fk = 7 WHERE crwd_id =9;
-UPDATE crowd SET user_fk = 10, spt_fk = 8 WHERE crwd_id =10;
 
