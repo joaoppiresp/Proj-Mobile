@@ -8,6 +8,11 @@ insert into users (user_email, user_phone_number, user_nm, user_place, user_pass
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'njr@hotmail.com', '967890123', 'Neymar JR', 'Amadora', 'ncjdb778');  
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'kbl@mac.com', '978901234', 'Kylian Mabppé Lottin', 'Amadora', 'bjdc55');  
 insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'cr7@mac.com', '989012345', 'Cristiano Ronaldo', 'Odivelas', 'pjfbcdg66*');
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'rl9@mac.com', '939012345', 'Robert Lewandowski', 'Lisboa', 'psabcdg66*');
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'eh9@mac.com', '949012345', 'Erling Haaland', 'Benfica', 'lçfbcdg66*');
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'kdb@mac.com', '979012345', 'Kevin De Bruyne', 'Lisboa', 'ytfbcdg66*');
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'ms11@mac.com', '969012345', 'Mohamed Salah', 'Benfica', 'pofbcdg66*');
+insert into users (user_email, user_phone_number, user_nm, user_place, user_password) values ( 'hk10@mac.com', '959012345', 'Harry Kane', 'Cascais', 'mnfbcdg66*');
 
 
 insert into transptype(trnsp_type, schedual) values('Metro', to_date('2021.11.10','YYYY.MM.DD'));
@@ -55,6 +60,7 @@ insert into interests(int_type) values('Netflix');
 insert into interests(int_type) values('Sunsets');
 insert into interests(int_type) values('Convívios');
 insert into interests(int_type) values('Blind dates');
+insert into interests(int_type) values(NULL);
 
 
 insert into pricing(price) values(50);
@@ -94,22 +100,32 @@ insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long)
 insert into infospot(spot_name, contact_info, spot_address, spot_lat, spot_long) values('Restaurante Farta Brutos','213426756','Travessa da Espera 16 1200 Lisboa','38.711540','-9.143550');
 
 
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,2,'R',1);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,3,'R',1);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,6,'R',1);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,10,'R',1);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,2,'R',4);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(6,3,'R',6);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(8,6,'R',8);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,10,'R',4);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,2,'A',2);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,3,'A',3);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,6,'D',6);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(1,10,'A',10);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,2,'B',2);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(6,3,'A',3);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(8,6,'A',6);
-insert into friends(senderid,receiverid,friendship_status,actiontakerid)values(4,10,'A',10);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,2,'R',1,1641051000000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,3,'R',1,1641058200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,6,'R',1,1641407700000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,10,'R',1,1641853200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,10,'A',10,1641856200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,2,'A',2,1641058200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,3,'A',3,1641062100000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(1,6,'D',6,1641418800000);
+
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,2,'R',4,1641856200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,10,'R',4,1641856200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,8,'R',4,1641856200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,9,'R',4,1641856200000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,10,'A',10,1642242600000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,8,'A',8,1642242600000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,9,'A',9,1642242600000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(4,2,'B',2,1642115400000);
+
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(6,3,'R',6,1642068660000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(6,3,'A',3,1642073100000);
+
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(8,6,'R',8,1642501800000);
+insert into friends(senderid,receiverid,friendship_status,actiontakerid, date_time_milis)values(8,6,'A',6,1642588200000);
+
+
+
 
 
 insert into eventtype(evnt_type) values('Música ao Vivo');
@@ -203,6 +219,19 @@ UPDATE infospot SET spttype_fk = 1 WHERE spot_id = 9;
 insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniersario helio',1,2,'A');
 insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniversario helio',1,3,'A');
 insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniversario helio',1,10,'A');
+insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniersario pires',4,8,'A');
+insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniversario pires',4,9,'A');
+insert into friendgroup(group_name, owner_id, friend_fk,friendship_truth) values('aniversario pires',4,10,'A');
+
+insert into favouritespots (spot_fk, user_fk) values(1,9);
+insert into favouritespots (spot_fk, user_fk) values(2,8);
+insert into favouritespots (spot_fk, user_fk) values(3,7);
+insert into favouritespots (spot_fk, user_fk) values(4,6);
+insert into favouritespots (spot_fk, user_fk) values(5,5);
+insert into favouritespots (spot_fk, user_fk) values(6,4);
+insert into favouritespots (spot_fk, user_fk) values(7,3);
+insert into favouritespots (spot_fk, user_fk) values(8,2);
+insert into favouritespots (spot_fk, user_fk) values(9,1);
 
 
 
