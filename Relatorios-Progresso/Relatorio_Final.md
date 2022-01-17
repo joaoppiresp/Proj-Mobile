@@ -14,7 +14,7 @@ Progamação de Dispositivos Móveis (João Dias) e Projeto de Desenvolvimento M
 No âmbito do projeto de desenvolvimento mobile e tendo em conta os recentes desenvolvimentos na vida noturna em Lisboa, como desacatos e mudanças recorrentes nas 
 medidas de segurança impostas, propomo-nos a criar uma app que facilite aos jovens manterem-se a par de tudo á sua volta quando se aventuram pela noite.
 
-As saídas noturnas são acompanhadas de amigos, de reecontros e encontros e de expetativas,sair à noite é sinónimo de diversão, descontração, e também, 
+As saídas noturnas são acompanhadas de amigos, de reecontros e encontros e de expetativas, sair à noite é sinónimo de diversão, descontração, e também, 
 não raras vezes, de transgressão, de testar os limites do anoitecer até às primeiras horas da manhã. Ela inclui bares, casas noturnas, música ao 
 vivo, cabaré, clubes, teatros e cinemas alternativos, shows e alguns restaurantes que uma área específica pode apresentar.
 
