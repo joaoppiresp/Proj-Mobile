@@ -1,6 +1,6 @@
 ![Logo Universidade](https://www.ibermagem.pt/images/eventoPhase/thumbnail_iade.jpg)
 
-# Friend's
+# Friends
 
 <p style="text-align: center;">Projeto realizado por João Miguel Pires, nº20200459 e Hélio Divaldo, nº20190928</p>
 
@@ -13,12 +13,16 @@ Progamação de Dispositivos Móveis (João Dias) e Projeto de Desenvolvimento M
 
 No âmbito do projeto de desenvolvimento mobile e tendo em conta os recentes desenvolvimentos na vida noturna em Lisboa, como desacatos e mudanças recorrentes nas 
 medidas de segurança impostas, propomo-nos a criar uma app que facilite aos jovens manterem-se a par de tudo á sua volta quando se aventuram pela noite.
+
+As saídas noturnas são acompanhadas de amigos, de reecontros e encontros e de expetativas,sair à noite é sinónimo de diversão, descontração, e também, 
+não raras vezes, de transgressão, de testar os limites do anoitecer até às primeiras horas da manhã. Ela inclui bares, casas noturnas, música ao 
+vivo, cabaré, clubes, teatros e cinemas alternativos, shows e alguns restaurantes que uma área específica pode apresentar.
+
 Friend’s surgiu com a missão de auxiliar os jovens quando quiserem ir para alguma zona noturna de Lisboa dando acesso a dados como:
 
--	Mapa interativo com localização de bares e clubes (densidade de utilizadores por zona);
+-	Mapa Interativo (com localização de bares e amigos);
 -	Search Friends (localizar e mandar notificações a amigos);
--	Search Bars (Pesquisa por bares e informações tais como preços de entrada e consumo mínimo);
--	Informações partilhadas pelos utilizadores sobre determinadas zonas que serão verificadas pelos votos up/down;
+-	Search Bars (Pesquisa por bares e informações tais como endereço,preços de entrada e consumo mínimo);
 
 ### Ferramentas e aplicações semelhantes
 
