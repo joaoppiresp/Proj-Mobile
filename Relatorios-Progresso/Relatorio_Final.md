@@ -20,9 +20,9 @@ vivo, cabaré, clubes, teatros e cinemas alternativos, shows e alguns restaurant
 
 Friend’s surgiu com a missão de auxiliar os jovens quando quiserem ir para alguma zona noturna de Lisboa dando acesso a dados como:
 
--	Mapa Interativo (com localização de bares e amigos);
+-	Mapa Interativo (com localização de spots e amigos);
 -	Search Friends (localizar e mandar notificações a amigos);
--	Search Bars (Pesquisa por bares e informações tais como endereço,preços de entrada e consumo mínimo);
+-	Search Spots (Pesquisa por spots e informações tais como endereço,preços de entrada e consumo mínimo);
 
 ### Ferramentas e aplicações semelhantes
 
